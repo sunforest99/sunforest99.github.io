@@ -1,0 +1,23 @@
+<header class="site-header">
+	{%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+	
+	<nav class="navbar navbar-primary none-dark-color">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<ul class="navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Features</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Pricing</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			</li>
+		</ul>
+	</nav>
+</header>
