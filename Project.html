@@ -1,0 +1,17 @@
+---
+layout: page
+title: project
+permalink: /project/
+---
+
+<h3>Category</h3>
+{%- for category in site.categories -%}
+<h3></h3>
+<ul>
+	{%- for post in category[1] -%}
+	{%- if post.categories[0] == 'Games' -%}
+	<li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+	{%- endif -%}
+	{% endfor %}
+</ul>
+{%- endfor -%}

@@ -1,23 +1,43 @@
 <header class="site-header">
 	{%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-	
-	<nav class="navbar navbar-primary none-dark-color">
-		<a class="navbar-brand" href="#">Navbar</a>
-		<ul class="navbar-nav">
-			<li class="nav-item active">
-				<a class="nav-link" href="#">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Features</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Pricing</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-			</li>
-		</ul>
+	{%- assign page_paths = site.header_pages | default: default_paths -%}
+	{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+
+	<nav class="navbar navbar-md fixed-top" id="navbar-example4">
+		<a class="navbar-brand" href="/">Navbar</a>
+		<button class="navbar-toggler" type="button" data-target="#navbar-collapse-00" data-toggle="collapse">
+			<svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+				stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+				</path>
+			</svg>
+		</button>
+		{%- if titles_size > 0 -%}
+		  <div class="trigger">
+			{%- for path in page_paths -%}
+			  {%- assign my_page = site.pages | where: "path", path | first -%}
+			  {%- if my_page.title -%}
+			  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+			  {%- endif -%}
+			{%- endfor -%}
+		  </div>
+	  {%- endif -%}
+		<div class="navbar-collapse">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Features</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Pricing</a>
+				</li>
+			</ul>
+			<div class="form-check dsp-flex align-items-center">
+				<input class="container_toggle form-switch-input" type="checkbox" id="switch" name="mode">
+				<label class="form-switch-label size-md" for="switch" id="dakrmode"></label>
+			</div>
+		</div>
 	</nav>
 </header>

@@ -1,13 +1,24 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " ko" }}">
 
-<div class="card">
-	<img src="/assets/img/icon.jpg"/>
-	<div class="card-body">
-		<h1>
-			adf
-		</h1>
-	</div>
-	
-</div>
+{%- include head.html -%}
+
+<body>
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+
+  <!-- end of body -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="https://yuristrap.netlify.app/js/yuri.js"></script>
+  <script type="text/javascript" src="/assets/js/home.js"></script>
+</body>
+
+</html>
