@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-12T21:12:04+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lazytitan</title><subtitle></subtitle><entry><title type="html">kk</title><link href="http://localhost:4000/games/2021/02/09/kk.html" rel="alternate" type="text/html" title="kk" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/games/2021/02/09/kk</id><content type="html" xml:base="http://localhost:4000/games/2021/02/09/kk.html">&lt;div class=&quot;card&quot;&gt;
-	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
-	&lt;div class=&quot;card-body&quot;&gt;
-		&lt;h1&gt;
-			adf
-		&lt;/h1&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="Games" /><summary type="html">adf</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll%20update/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/jekyll%20update/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll%20update/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-22T20:22:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -21,4 +14,53 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Bing-Bong</title><link href="http://localhost:4000/project/2021/02/09/bing-bong.html" rel="alternate" type="text/html" title="Bing-Bong" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/bing-bong</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/bing-bong.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NGUI" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">D.O</title><link href="http://localhost:4000/project/2021/02/09/do.html" rel="alternate" type="text/html" title="D.O" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/do</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/do.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.3.2f1" /><category term="Game" /><category term="C#" /><category term="Multiplayer" /><summary type="html">adf</summary></entry><entry><title type="html">Road Of Dead</title><link href="http://localhost:4000/project/2021/02/09/road-of-dead.html" rel="alternate" type="text/html" title="Road Of Dead" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/road-of-dead</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/road-of-dead.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NUGI" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Long Time No See</title><link href="http://localhost:4000/project/2021/02/09/long-time-no-see.html" rel="alternate" type="text/html" title="Long Time No See" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/long-time-no-see</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/long-time-no-see.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Crush Me</title><link href="http://localhost:4000/project/2021/02/09/crush-me.html" rel="alternate" type="text/html" title="Crush Me" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/crush-me</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/crush-me.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2017.1.1f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Shape Of You</title><link href="http://localhost:4000/project/2021/02/09/shape-of-you.html" rel="alternate" type="text/html" title="Shape Of You" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/shape-of-you</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/shape-of-you.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2019.4.15f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Yuristarp</title><link href="http://localhost:4000/project/2021/02/09/yuristrap.html" rel="alternate" type="text/html" title="Yuristarp" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/yuristrap</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/yuristrap.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Web" /><category term="scss" /><category term="js" /><category term="frontend-framwork" /><summary type="html">adf</summary></entry></feed>

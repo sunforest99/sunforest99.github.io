@@ -1,8 +1,10 @@
 ---
 layout: home
-title:  "kk"
+title:  "Long Time No See"
 date:   2021-02-09 23:45:10 +0900
-categories: [Games]
+categories: [project]
+headerImg: LongTimeNoSee.jpg
+tags: [Unity, 5.5.0f3, Game, C#]
 ---
 <div class="card">
 	<img src="/assets/img/icon.jpg"/>

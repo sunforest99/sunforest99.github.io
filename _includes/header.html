@@ -3,9 +3,9 @@
 	{%- assign page_paths = site.header_pages | default: default_paths -%}
 	{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 
-	<nav class="navbar navbar-md fixed-top" id="navbar-example4">
+	<nav class="navbar navbar-light navbar-md fixed-top">
 		<a class="navbar-brand" href="/">
-			<img style="width: 3rem; height: 3rem;" src="/assets/img/lazytitan.png"/>
+			<img style="width: 2.5rem; height: 2.5rem;" src="/assets/img/sunforest99.png"/>
 		</a>
 		<button class="navbar-toggler" type="button" data-target="#navbar-collapse-00" data-toggle="collapse">
 			<svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -15,7 +15,7 @@
 			</svg>
 		</button>
 		{%- if titles_size > 0 -%}
-		<div class="navbar-collapse">
+		<div class="collapse navbar-collapse">
 			{%- for path in page_paths -%}
 			{%- assign my_page = site.pages | where: "path", path | first -%}
 			{%- if my_page.title -%}

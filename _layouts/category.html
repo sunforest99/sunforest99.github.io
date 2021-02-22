@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " ko" }}">
+
+{%- include head.html -%}
+
+<body>
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="container-fluid">
+      {{ content }}
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+
+  <!-- end of body -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="https://yuristrap.netlify.app/js/yuri.js"></script>
+  <script type="text/javascript" src="/assets/js/home.js"></script>
+</body>
+
+
+</html>

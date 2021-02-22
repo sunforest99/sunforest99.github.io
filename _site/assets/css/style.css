@@ -28,4 +28,12 @@ body { padding-top: 5rem; }
 
 .slider:after { content: 'OFF'; color: white; display: block; position: absolute; transform: translate(-50%, -50%); top: 50%; left: 50%; font-size: 0.625rem; font-family: Verdana, sans-serif; }
 
+.category-card { width: 20rem; margin-bottom: 3rem; }
+
+.category-card .category-text { color: var(--darkColor); }
+
+.tag-group { padding: 0px 1rem 1rem 1rem; }
+
+.tag-group .tag { margin-right: 4px; }
+
 /*# sourceMappingURL=style.css.map */

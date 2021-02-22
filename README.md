@@ -1,10 +1,10 @@
-# lazyevilsquid.github.io
+# sunforest99.github.io
 
-[link][lazyevilsquid.github.io]
+[link][sunforest99.github.io]
 
 start
 ```
-jekyll serve
+bundle exec jekyll serve
 ```
 
 goorm 

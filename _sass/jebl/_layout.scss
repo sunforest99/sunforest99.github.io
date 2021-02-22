@@ -1,0 +1,18 @@
+.category-card
+{
+    width: 20rem; 
+    margin-bottom: 3rem;
+    .category-text
+    {
+        color: var(--darkColor);
+    }
+}
+
+.tag-group
+{
+    padding: 0px 1rem 1rem 1rem;
+    .tag
+    {
+        margin-right: 4px;
+    }
+}
