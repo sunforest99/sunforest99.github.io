@@ -1,10 +1,26 @@
-document.getElementById("dakrmode").onclick = function() {
-	var Attribute = document.documentElement.getAttribute('data-theme');
-	
-	if(Attribute == 'dark') {
-		document.documentElement.setAttribute('data-theme', 'light');
-	}
-	else {
+// yuri 추가 예정
+var checkbox = document.querySelector('input[name=mode]');
+
+if (localStorage.toggled === 'dark') {
+	document.documentElement.setAttribute('data-theme', 'dark');
+	checkbox.checked = true;
+}
+
+checkbox.addEventListener('change', function () {
+	if (this.checked) {
+		trans();
 		document.documentElement.setAttribute('data-theme', 'dark');
+		localStorage.toggled = 'dark';
+	} else {
+		trans();
+		document.documentElement.setAttribute('data-theme', 'light');
+		localStorage.toggled = '';
 	}
+})
+
+let trans = () => {
+	document.documentElement.classList.add('transition');
+	window.setTimeout(() => {
+		document.documentElement.classList.remove('transition');
+	}, 1000)
 }
