@@ -16,3 +16,23 @@
         margin-right: 4px;
     }
 }
+
+.about-me {
+    margin-top: 4rem;
+}
+
+.vl {
+    position: relative;
+    border-left: 4px solid #b695fd;
+    left: 20%;
+    height: 5.5rem;
+    .circle {
+        position: absolute;
+        background-color:#b695fd;
+        width:10px;
+        height:10px;
+        border-radius:75px;
+        margin:-23px;
+        margin-top: 2.5rem;
+    }
+}
