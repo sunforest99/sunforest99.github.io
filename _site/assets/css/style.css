@@ -38,8 +38,14 @@ body { padding-top: 5rem; }
 
 .about-me { margin-top: 4rem; }
 
-.vl { position: relative; border-left: 4px solid #b695fd; left: 20%; height: 5.5rem; }
+.vl { position: relative; border-left: 4px solid #b695fd; left: 10%; height: 5.5rem; }
 
 .vl .circle { position: absolute; background-color: #b695fd; width: 10px; height: 10px; border-radius: 75px; margin: -23px; margin-top: 2.5rem; }
+
+.div-skills { margin-top: 1.5rem; }
+
+.div-skills .skills-progress { width: 300px; margin-left: 100px; }
+
+.history-ul { position: absolute; margin-top: 1.5rem; list-style: none; margin-left: -40px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -24,7 +24,7 @@
 .vl {
     position: relative;
     border-left: 4px solid #b695fd;
-    left: 20%;
+    left: 10%;
     height: 5.5rem;
     .circle {
         position: absolute;
@@ -35,4 +35,19 @@
         margin:-23px;
         margin-top: 2.5rem;
     }
+}
+
+.div-skills {
+    margin-top: 1.5rem;
+    .skills-progress {
+        width: 300px; 
+        margin-left: 100px;
+    }
+}
+
+.history-ul {
+    position: absolute; 
+    margin-top: 1.5rem; 
+    list-style:none; 
+    margin-left: -40px;
 }
