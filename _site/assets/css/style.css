@@ -48,4 +48,8 @@ body { padding-top: 5rem; }
 
 .history-ul { position: absolute; margin-top: 1.5rem; list-style: none; margin-left: -40px; }
 
+.footer-ul { list-style: none; }
+
+.footer-ul img { margin-right: 1rem; width: 32px; height: 32px; }
+
 /*# sourceMappingURL=style.css.map */

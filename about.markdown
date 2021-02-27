@@ -12,7 +12,7 @@ permalink: /about/
             1999.04.01
         </p>
         <p style="margin-left: -90px;">
-            <img style="width: 32px; height 32px; vertical-align: middle;" src="/assets/img/about-img/mail.png"/>
+            <img style="width: 32px; height: 32px; vertical-align: middle;" src="/assets/img/about-img/mail.png"/>
             taeyang93002@daum.net<br>
         </p>
     </div>
