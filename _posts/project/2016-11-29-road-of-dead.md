@@ -1,7 +1,6 @@
 ---
 layout: home
 title:  "Road Of Dead"
-date:   2021-02-09 23:45:10 +0900
 categories: [project]
 headerImg: Road-of-dead.png
 tags: [Unity, 5.5.0f3, NUGI, Game, C#]

@@ -1,60 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-27T18:12:34+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">Tiler</title><link href="http://localhost:4000/project/2021/02/09/tiler.html" rel="alternate" type="text/html" title="Tiler" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/tiler</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/tiler.html">&lt;div class=&quot;card&quot;&gt;
-	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
-	&lt;div class=&quot;card-body&quot;&gt;
-		&lt;h1&gt;
-			adf
-		&lt;/h1&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2020.2.2f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Bing-Bong</title><link href="http://localhost:4000/project/2021/02/09/bing-bong.html" rel="alternate" type="text/html" title="Bing-Bong" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/bing-bong</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/bing-bong.html">&lt;div class=&quot;card&quot;&gt;
-	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
-	&lt;div class=&quot;card-body&quot;&gt;
-		&lt;h1&gt;
-			adf
-		&lt;/h1&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NGUI" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">D.O</title><link href="http://localhost:4000/project/2021/02/09/do.html" rel="alternate" type="text/html" title="D.O" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/do</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/do.html">&lt;div class=&quot;card&quot;&gt;
-	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
-	&lt;div class=&quot;card-body&quot;&gt;
-		&lt;h1&gt;
-			adf
-		&lt;/h1&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.3.2f1" /><category term="Game" /><category term="C#" /><category term="Multiplayer" /><summary type="html">adf</summary></entry><entry><title type="html">Road Of Dead</title><link href="http://localhost:4000/project/2021/02/09/road-of-dead.html" rel="alternate" type="text/html" title="Road Of Dead" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/road-of-dead</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/road-of-dead.html">&lt;div class=&quot;card&quot;&gt;
-	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
-	&lt;div class=&quot;card-body&quot;&gt;
-		&lt;h1&gt;
-			adf
-		&lt;/h1&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NUGI" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Long Time No See</title><link href="http://localhost:4000/project/2021/02/09/long-time-no-see.html" rel="alternate" type="text/html" title="Long Time No See" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/long-time-no-see</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/long-time-no-see.html">&lt;div class=&quot;card&quot;&gt;
-	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
-	&lt;div class=&quot;card-body&quot;&gt;
-		&lt;h1&gt;
-			adf
-		&lt;/h1&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Crush Me</title><link href="http://localhost:4000/project/2021/02/09/crush-me.html" rel="alternate" type="text/html" title="Crush Me" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/crush-me</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/crush-me.html">&lt;div class=&quot;card&quot;&gt;
-	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
-	&lt;div class=&quot;card-body&quot;&gt;
-		&lt;h1&gt;
-			adf
-		&lt;/h1&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2017.1.1f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Shape Of You</title><link href="http://localhost:4000/project/2021/02/09/shape-of-you.html" rel="alternate" type="text/html" title="Shape Of You" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/shape-of-you</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/shape-of-you.html">&lt;div class=&quot;card&quot;&gt;
-	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
-	&lt;div class=&quot;card-body&quot;&gt;
-		&lt;h1&gt;
-			adf
-		&lt;/h1&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2019.4.15f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Yuristarp</title><link href="http://localhost:4000/project/2021/02/09/yuristrap-copy.html" rel="alternate" type="text/html" title="Yuristarp" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/project/2021/02/09/yuristrap%20copy</id><content type="html" xml:base="http://localhost:4000/project/2021/02/09/yuristrap-copy.html">&lt;div class=&quot;card&quot;&gt;
-	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
-	&lt;div class=&quot;card-body&quot;&gt;
-		&lt;h1&gt;
-			adf
-		&lt;/h1&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Web" /><category term="scss" /><category term="js" /><category term="frontend-framwork" /><summary type="html">adf</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-28T16:00:52+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -70,4 +14,70 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Tiler</title><link href="http://localhost:4000/project/2021/02/05/tiler.html" rel="alternate" type="text/html" title="Tiler" /><published>2021-02-05T00:00:00+09:00</published><updated>2021-02-05T00:00:00+09:00</updated><id>http://localhost:4000/project/2021/02/05/tiler</id><content type="html" xml:base="http://localhost:4000/project/2021/02/05/tiler.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2020.2.2f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Yuristarp</title><link href="http://localhost:4000/project/2020/11/22/yuristrap-copy.html" rel="alternate" type="text/html" title="Yuristarp" /><published>2020-11-22T00:00:00+09:00</published><updated>2020-11-22T00:00:00+09:00</updated><id>http://localhost:4000/project/2020/11/22/yuristrap%20copy</id><content type="html" xml:base="http://localhost:4000/project/2020/11/22/yuristrap-copy.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Web" /><category term="scss" /><category term="js" /><category term="frontend-framwork" /><summary type="html">adf</summary></entry><entry><title type="html">Shape Of You</title><link href="http://localhost:4000/project/2019/03/04/shape-of-you.html" rel="alternate" type="text/html" title="Shape Of You" /><published>2019-03-04T00:00:00+09:00</published><updated>2019-03-04T00:00:00+09:00</updated><id>http://localhost:4000/project/2019/03/04/shape-of-you</id><content type="html" xml:base="http://localhost:4000/project/2019/03/04/shape-of-you.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2019.4.15f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Crush Me</title><link href="http://localhost:4000/project/2018/03/08/crush-me.html" rel="alternate" type="text/html" title="Crush Me" /><published>2018-03-08T00:00:00+09:00</published><updated>2018-03-08T00:00:00+09:00</updated><id>http://localhost:4000/project/2018/03/08/crush-me</id><content type="html" xml:base="http://localhost:4000/project/2018/03/08/crush-me.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2017.1.1f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Long Time No See</title><link href="http://localhost:4000/project/2017/02/20/long-time-no-see.html" rel="alternate" type="text/html" title="Long Time No See" /><published>2017-02-20T00:00:00+09:00</published><updated>2017-02-20T00:00:00+09:00</updated><id>http://localhost:4000/project/2017/02/20/long-time-no-see</id><content type="html" xml:base="http://localhost:4000/project/2017/02/20/long-time-no-see.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Road Of Dead</title><link href="http://localhost:4000/project/2016/11/29/road-of-dead.html" rel="alternate" type="text/html" title="Road Of Dead" /><published>2016-11-29T00:00:00+09:00</published><updated>2016-11-29T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/29/road-of-dead</id><content type="html" xml:base="http://localhost:4000/project/2016/11/29/road-of-dead.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NUGI" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">D.O</title><link href="http://localhost:4000/project/2016/11/07/do.html" rel="alternate" type="text/html" title="D.O" /><published>2016-11-07T00:00:00+09:00</published><updated>2016-11-07T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/07/do</id><content type="html" xml:base="http://localhost:4000/project/2016/11/07/do.html">&lt;div class=&quot;card&quot;&gt;
+	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
+	&lt;div class=&quot;card-body&quot;&gt;
+		&lt;h1&gt;
+			adf
+		&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.3.2f1" /><category term="Game" /><category term="C#" /><category term="Multiplayer" /><summary type="html">adf</summary></entry><entry><title type="html">Bing-Bong</title><link href="http://localhost:4000/project/2016/11/07/bing-bong.html" rel="alternate" type="text/html" title="Bing-Bong" /><published>2016-11-07T00:00:00+09:00</published><updated>2016-11-07T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/07/bing-bong</id><content type="html" xml:base="http://localhost:4000/project/2016/11/07/bing-bong.html">&lt;div class=&quot;row text-center&quot;&gt;
+    &lt;div class=&quot;col-md-12&quot; style=&quot;margin-top: 5rem;&quot;&gt;
+        &lt;h3&gt;Bing-Bong&lt;/h3&gt;
+        &lt;hr class=&quot;hr-dashed&quot; /&gt;
+        &lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br /&gt; 팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br /&gt; 팀원 : &lt;a href=&quot;https://github.com/kyechan99&quot;&gt;강예찬&lt;/a&gt; , &lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt; 강석찬&lt;/a&gt; ,&lt;a href=&quot;https://github.com/Lazyevilsquid&quot;&gt; 김태양 &lt;/a&gt;, 김동원
+          , 배명한 , 고대호&lt;br /&gt;&lt;br /&gt;
+          &lt;h3&gt; 개발 엔진 &lt;/h3&gt; Unity&lt;br /&gt;&lt;br /&gt;
+          &lt;h3&gt;수상이력&lt;/h3&gt; 1. 한국게임과학고등학교 스마트폰 게임 개발 정책 포럼 금상 &lt;br /&gt;2. 2016년도 글로벌 인디 게임 제작 경진대회 장려상 &lt;br /&gt;&lt;/p&gt;
+    &lt;/div&gt;
+        &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/Bing-Bong/Bing-Bong_Logo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/Bing-Bong/playing.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        &lt;p&gt;ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다.&lt;/p&gt;
+        &lt;p&gt;
+          &lt;bt&gt;Client: &lt;a class=&quot;list-group-item-primary&quot; href=&quot;https://github.com/GanZinam/Bing-Bong&quot;&gt;GanZinam/Bing-Bong&lt;/a&gt;&lt;/bt&gt; - 
+          &lt;bt&gt;Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt;&lt;/bt&gt; -
+          &lt;bt&gt;Date: 18 Mar, 2017 (Latest commit)&lt;/bt&gt;
+        &lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NGUI" /><category term="Game" /><category term="C#" /><summary type="html">Bing-Bong TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬 , 강석찬 , 김태양 , 김동원 , 배명한 , 고대호 개발 엔진 Unity 수상이력 1. 한국게임과학고등학교 스마트폰 게임 개발 정책 포럼 금상 2. 2016년도 글로벌 인디 게임 제작 경진대회 장려상 ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다. Client: GanZinam/Bing-Bong - Organization: GanZinam - Date: 18 Mar, 2017 (Latest commit)</summary></entry></feed>
