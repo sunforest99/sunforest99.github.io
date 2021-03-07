@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-05T14:02:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-07T22:21:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -21,26 +21,31 @@
 			adf
 		&lt;/h1&gt;
 	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2020.2.2f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Yuristarp</title><link href="http://localhost:4000/project/2020/11/22/yuristrap-copy.html" rel="alternate" type="text/html" title="Yuristarp" /><published>2020-11-22T00:00:00+09:00</published><updated>2020-11-22T00:00:00+09:00</updated><id>http://localhost:4000/project/2020/11/22/yuristrap%20copy</id><content type="html" xml:base="http://localhost:4000/project/2020/11/22/yuristrap-copy.html">&lt;div class=&quot;card&quot;&gt;
-	&lt;img src=&quot;/assets/img/icon.jpg&quot; /&gt;
-	&lt;div class=&quot;card-body&quot;&gt;
-		&lt;h1&gt;
-			adf
-		&lt;/h1&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2020.2.2f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Yuristarp</title><link href="http://localhost:4000/project/2020/11/22/yuristrap.html" rel="alternate" type="text/html" title="Yuristarp" /><published>2020-11-22T00:00:00+09:00</published><updated>2020-11-22T00:00:00+09:00</updated><id>http://localhost:4000/project/2020/11/22/yuristrap</id><content type="html" xml:base="http://localhost:4000/project/2020/11/22/yuristrap.html">&lt;div class=&quot;row text-center&quot;&gt;
+    &lt;div class=&quot;col-md-12&quot; style=&quot;margin-top: 5rem;&quot;&gt;
+    	&lt;h3&gt;Yuristarp&lt;/h3&gt;
+    	&lt;hr class=&quot;hr-dashed&quot;&gt;
+    	&lt;p&gt;Yuristarp 웹 프레임워크 &lt;br&gt;
+    	  &lt;h3&gt;개발자&lt;/h3&gt;
+    	  &lt;ui&gt;
+    	  &lt;li&gt;&lt;a href = &quot;https://github.com/kyechan99&quot;&gt;강예찬 &lt;/a&gt;&lt;/li&gt;
+    	  &lt;li&gt;&lt;a href = &quot;https://github.com/sunforest99&quot;&gt;김태양 &lt;/a&gt;&lt;/li&gt;
+    	  &lt;/ui&gt;
+    	&lt;br&gt;		  
 	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Web" /><category term="scss" /><category term="js" /><category term="frontend-framwork" /><summary type="html">adf</summary></entry><entry><title type="html">Shape Of You</title><link href="http://localhost:4000/project/2019/03/04/shape-of-you.html" rel="alternate" type="text/html" title="Shape Of You" /><published>2019-03-04T00:00:00+09:00</published><updated>2019-03-04T00:00:00+09:00</updated><id>http://localhost:4000/project/2019/03/04/shape-of-you</id><content type="html" xml:base="http://localhost:4000/project/2019/03/04/shape-of-you.html">&lt;div class=&quot;row text-center&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Web" /><category term="scss" /><category term="js" /><category term="frontend-framwork" /><summary type="html">Yuristarp Yuristarp 웹 프레임워크 개발자 강예찬 김태양</summary></entry><entry><title type="html">Shape Of You</title><link href="http://localhost:4000/project/2019/03/04/shape-of-you.html" rel="alternate" type="text/html" title="Shape Of You" /><published>2019-03-04T00:00:00+09:00</published><updated>2019-03-04T00:00:00+09:00</updated><id>http://localhost:4000/project/2019/03/04/shape-of-you</id><content type="html" xml:base="http://localhost:4000/project/2019/03/04/shape-of-you.html">&lt;div class=&quot;row text-center&quot;&gt;
     &lt;div class=&quot;col-md-12&quot; style=&quot;margin-top: 5rem;&quot;&gt;
     	&lt;h3&gt;Shape-Of-You&lt;/h3&gt;
     	&lt;hr class=&quot;hr-dashed&quot;&gt;
     	&lt;p&gt;Shape of You 클라이언트 &lt;br&gt;
     	  &lt;h3&gt;개발자&lt;/h3&gt;
     	  &lt;ui&gt;
-    	  &lt;li&gt;&lt;a herf = &quot;https://github.com/kyechan99&quot;&gt;강예찬 &lt;/a&gt;&lt;/li&gt;
-    	  &lt;li&gt;&lt;a herf = &quot;https://github.com/sunforest99&quot;&gt;김태양 &lt;/a&gt;&lt;/li&gt;
+    	  &lt;li&gt;&lt;a href = &quot;https://github.com/kyechan99&quot;&gt;강예찬 &lt;/a&gt;&lt;/li&gt;
+    	  &lt;li&gt;&lt;a href = &quot;https://github.com/sunforest99&quot;&gt;김태양 &lt;/a&gt;&lt;/li&gt;
     	  &lt;/ui&gt;&lt;br&gt;
     	  &lt;h6&gt;맵제작 도움&lt;/h6&gt;
     	  &lt;ui&gt;
-    	    &lt;li&gt;&lt;a herf = &quot;https://github.com/hhh57463&quot;&gt;심민석 &lt;/a&gt;&lt;/li&gt;
+    	    &lt;li&gt;&lt;a href = &quot;https://github.com/hhh57463&quot;&gt;심민석 &lt;/a&gt;&lt;/li&gt;
     	  &lt;/ui&gt;
     	&lt;br&gt;
     	&lt;h3&gt; 개발 엔진 &lt;/h3&gt;Unity&lt;br&gt;&lt;br&gt;
