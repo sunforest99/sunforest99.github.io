@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-07T22:21:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-10T20:46:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -56,13 +56,13 @@
     	  6&amp;emsp;&amp;emsp;&amp;emsp;2&lt;br&gt;
     	  9&amp;emsp;&amp;emsp;&amp;emsp;3&lt;br&gt;&lt;br&gt;
     	&lt;h4&gt;2017.09.09 맥버전&lt;/h4&gt;
-    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/Shape-of-you/Shape-Of-You_MAC.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Shape-Of-You_MAC.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     	&lt;p&gt;&lt;H2&gt; 스킬 설명 &lt;/H2&gt;&lt;/p&gt;
-    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/Shape-of-you/Rule.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/Shape-of-you/Thief.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/Shape-of-you/Police.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Rule.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Thief.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Police.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     	&lt;p&gt;
-    	  &lt;bt&gt;Client: &lt;a href=&quot;https://github.com/Lazyevilsquid/Shape-Of-You-Client/releases&quot;&gt;Shape-Of-You-Client&lt;/a&gt; ( .exe, .apk )&lt;/bt&gt; -
+    	  &lt;bt&gt;Client: &lt;a href=&quot;https://github.com/sunforest99/Shape-Of-You-Client/releases&quot;&gt;Shape-Of-You-Client&lt;/a&gt; ( .exe, .apk )&lt;/bt&gt; -
     	  &lt;bt&gt;Server: &lt;a href=&quot;https://github.com/kyechan99/Shape-Of-You-Server/releases&quot;&gt;Shape-Of-You-Server&lt;/a&gt;&lt;/bt&gt; -
     	  &lt;bt&gt;Date: 24 July, 2017&lt;/bt&gt;
     	&lt;/p&gt;
