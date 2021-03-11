@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-10T20:46:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-11T16:44:51+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">cocos tutorial</title><link href="http://localhost:4000/cocos/2021/03/11/cocos.html" rel="alternate" type="text/html" title="cocos tutorial" /><published>2021-03-11T00:00:00+09:00</published><updated>2021-03-11T00:00:00+09:00</updated><id>http://localhost:4000/cocos/2021/03/11/cocos</id><content type="html" xml:base="http://localhost:4000/cocos/2021/03/11/cocos.html">&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-md-12&quot;  style=&quot;margin-top: 5rem;&quot;&gt;
+        &lt;div class=&quot;alert alert-primary text-center&quot;&gt;
+            &lt;h2&gt;Cocos-2dx 기본적인 폴더 구조&lt;/h2&gt;
+            &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/folder.png&quot;&gt;
+            &lt;p&gt;
+            &lt;h5&gt;&lt;strong&gt; Classes &lt;/strong&gt; &lt;/h5&gt;
+                개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳
+            &lt;h5&gt;&lt;strong&gt;  cocos2d &lt;/strong&gt;&lt;/h5&gt;
+                cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음.
+            &lt;h5&gt;&lt;strong&gt;  proj.win32 &lt;/strong&gt;&lt;/h5&gt;
+                win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더
+            &lt;h5&gt;&lt;strong&gt;  Resources &lt;/strong&gt;&lt;/h5&gt;
+                게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다.
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;alert alert-success text-center&quot;&gt;
+            &lt;h2&gt;Cocos-2dx 기본적인 프로젝트 구조&lt;/h2&gt;
+            &lt;h4&gt;&lt;strong&gt;폴더랑 필터랑 다른부분!!&lt;/strong&gt;&lt;/h4&gt;
+            &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/base.png&quot;&gt;
+            &lt;p&gt;
+                &lt;h5&gt;&lt;strong&gt; nclude filter &lt;/strong&gt;&lt;/h5&gt;
+                    이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음.
+                &lt;h5&gt;&lt;strong&gt; main filter &lt;/strong&gt;&lt;/h5&gt;
+                    메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음.
+                &lt;h5&gt;&lt;strong&gt; classes filter &lt;/strong&gt;&lt;/h5&gt;
+                    게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등
+                &lt;h5&gt;&lt;strong&gt; scenes filter &lt;/strong&gt;&lt;/h5&gt;
+                    게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분
+                &lt;h5&gt;&lt;strong&gt; win32 filter &lt;/strong&gt;&lt;/h5&gt;
+                    창을 생성해주는 부분 (WINMAIN)건들필요 X
+            &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;h2 style=&quot;margin-top: 5rem; margin-bottom: 2rem;&quot;&gt; Cocos2d 의 좌표계&lt;/h2&gt;
+        &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/vec.png&quot;&gt;
+        &lt;p style=&quot;font-size: 1.2rem; margin-top: 2rem;&quot;&gt;
+            해상도를 720 x 1280 으로 했을떄, &lt;br&gt;
+            위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 )
+        &lt;/p&gt;
+        &lt;p class=&quot;text-left&quot;&gt;
+            &lt;h2&gt; Sprite(이미지를 창에 띄우는 방법) &lt;/h2&gt;
+            &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/sprite.png&quot;&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="cocos" /><summary type="html">Cocos-2dx 기본적인 폴더 구조 Classes 개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳 cocos2d cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음. proj.win32 win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더 Resources 게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다. Cocos-2dx 기본적인 프로젝트 구조 폴더랑 필터랑 다른부분!! nclude filter 이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음. main filter 메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음. classes filter 게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등 scenes filter 게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분 win32 filter 창을 생성해주는 부분 (WINMAIN)건들필요 X Cocos2d 의 좌표계 해상도를 720 x 1280 으로 했을떄, 위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 ) Sprite(이미지를 창에 띄우는 방법)</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -103,7 +147,7 @@
 	&lt;/div&gt;
 &lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="Game" /><category term="C#" /><summary type="html">Long Time No See TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬 , 강석찬 , 김태양 , 김동원 , 배명한 , 고대호 수상이력 1. 한국게임과학고등학교 학교장배 게임제작 동상 개발 엔진 Unity 인트로 동영상 Client: GanZinam/LongTimeNoSee - Organization: GanZinam - Date: 18 Mar, 2017 (Latest commit)</summary></entry><entry><title type="html">Road Of Dead</title><link href="http://localhost:4000/project/2016/11/29/Road-of-dead.html" rel="alternate" type="text/html" title="Road Of Dead" /><published>2016-11-29T00:00:00+09:00</published><updated>2016-11-29T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/29/Road-of-dead</id><content type="html" xml:base="http://localhost:4000/project/2016/11/29/Road-of-dead.html">&lt;div class=&quot;row text-center&quot;&gt;
   &lt;div class=&quot;col-md-12&quot; style=&quot;margin-top: 5rem;&quot;&gt;
-    &lt;h3&gt;Load Of Dead&lt;/h3&gt;
+    &lt;h3&gt;Road Of Dead&lt;/h3&gt;
     &lt;hr class=&quot;hr-dashed&quot; /&gt;
     &lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br&gt; 팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br&gt; 팀원 : &lt;a
         href=&quot;https://github.com/kyechan99&quot;&gt;강예찬&lt;/a&gt; , &lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt; 강석찬&lt;/a&gt; ,&lt;a
@@ -120,16 +164,16 @@
     &lt;/p&gt;
     &lt;p&gt;
     &lt;h3&gt; 게임 플레이 &lt;/h3&gt;
-    &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/Road-Of-Dead/TeamLogo.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/Road-Of-Dead/GameLogo.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/Road-Of-Dead/GamePlay.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/road-of-Dead/TeamLogo.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/road-of-Dead/GameLogo.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/road-of-Dead/GamePlay.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     &lt;p&gt;ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다.&lt;/p&gt;
     &lt;bt&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/Road-Of-Dead&quot;&gt;GanZinam/Road-Of-Dead&lt;/a&gt;&lt;/bt&gt; -
     &lt;bt&gt;Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt;&lt;/bt&gt; -
     &lt;bt&gt;Date: 18 Mar, 2017 (Latest commit)&lt;/bt&gt;
     &lt;/p&gt;
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NUGI" /><category term="Game" /><category term="C#" /><summary type="html">Load Of Dead TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬 , 강석찬 , 김태양 , 김동원 , 배명한 , 고대호 수상이력 1. 한국게임과학고등학교 학교장배 게임제작 은상 개발 엔진 Unity Version 2016.11.4 ~ 2016.11.17 : ver 0.0.1 2016.11.18 ~ 2016.11.29: ver 0.0.2 2016.11.30 ~ : ver 0.1.0 게임 플레이 ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다. Client: GanZinam/Road-Of-Dead - Organization: GanZinam - Date: 18 Mar, 2017 (Latest commit)</summary></entry><entry><title type="html">Bing-Bong</title><link href="http://localhost:4000/project/2016/11/07/bing-bong.html" rel="alternate" type="text/html" title="Bing-Bong" /><published>2016-11-07T00:00:00+09:00</published><updated>2016-11-07T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/07/bing-bong</id><content type="html" xml:base="http://localhost:4000/project/2016/11/07/bing-bong.html">&lt;div class=&quot;row text-center&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NUGI" /><category term="Game" /><category term="C#" /><summary type="html">Road Of Dead TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬 , 강석찬 , 김태양 , 김동원 , 배명한 , 고대호 수상이력 1. 한국게임과학고등학교 학교장배 게임제작 은상 개발 엔진 Unity Version 2016.11.4 ~ 2016.11.17 : ver 0.0.1 2016.11.18 ~ 2016.11.29: ver 0.0.2 2016.11.30 ~ : ver 0.1.0 게임 플레이 ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다. Client: GanZinam/Road-Of-Dead - Organization: GanZinam - Date: 18 Mar, 2017 (Latest commit)</summary></entry><entry><title type="html">Bing-Bong</title><link href="http://localhost:4000/project/2016/11/07/bing-bong.html" rel="alternate" type="text/html" title="Bing-Bong" /><published>2016-11-07T00:00:00+09:00</published><updated>2016-11-07T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/07/bing-bong</id><content type="html" xml:base="http://localhost:4000/project/2016/11/07/bing-bong.html">&lt;div class=&quot;row text-center&quot;&gt;
     &lt;div class=&quot;col-md-12&quot; style=&quot;margin-top: 5rem;&quot;&gt;
         &lt;h3&gt;Bing-Bong&lt;/h3&gt;
         &lt;hr class=&quot;hr-dashed&quot;/&gt;

@@ -1,0 +1,51 @@
+---
+layout: default
+title:  "cocos tutorial"
+categories: [cocos]
+---
+
+<div class="row">
+    <div class="col-md-12"  style="margin-top: 5rem;">
+        <div class="alert alert-primary text-center">
+            <h2>Cocos-2dx 기본적인 폴더 구조</h2>
+            <img class="post-img" src="/assets/img/cocos2dx/folder.png">
+            <p>
+            <h5><strong> Classes </strong> </h5>
+                개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳
+            <h5><strong>  cocos2d </strong></h5>
+                cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음.
+            <h5><strong>  proj.win32 </strong></h5>
+                win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더
+            <h5><strong>  Resources </strong></h5>
+                게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다.
+            </p>
+        </div>
+        <div class="alert alert-success text-center">
+            <h2>Cocos-2dx 기본적인 프로젝트 구조</h2>
+            <h4><strong>폴더랑 필터랑 다른부분!!</strong></h4>
+            <img class="post-img" src="/assets/img/cocos2dx/base.png">
+            <p>
+                <h5><strong> nclude filter </strong></h5>
+                    이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음.
+                <h5><strong> main filter </strong></h5>
+                    메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음.
+                <h5><strong> classes filter </strong></h5>
+                    게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등
+                <h5><strong> scenes filter </strong></h5>
+                    게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분
+                <h5><strong> win32 filter </strong></h5>
+                    창을 생성해주는 부분 (WINMAIN)건들필요 X
+            </p>
+        </div>
+        <h2 style="margin-top: 5rem; margin-bottom: 2rem;"> Cocos2d 의 좌표계</h2>
+        <img class="post-img" src="/assets/img/cocos2dx/vec.png">
+        <p style="font-size: 1.2rem; margin-top: 2rem;">
+            해상도를 720 x 1280 으로 했을떄, <br>
+            위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 )
+        </p>
+        <p class="text-left">
+            <h2> Sprite(이미지를 창에 띄우는 방법) </h2>
+            <img class="post-img" src="/assets/img/cocos2dx/sprite.png">
+        </p>
+    </div>
+</div>
