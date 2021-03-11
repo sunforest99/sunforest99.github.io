@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: private
 title:  "cocos tutorial"
 categories: [cocos]
 ---
@@ -38,14 +38,35 @@ categories: [cocos]
             </p>
         </div>
         <h2 style="margin-top: 5rem; margin-bottom: 2rem;"> Cocos2d 의 좌표계</h2>
+        해상도를 720 x 1280 으로 했을떄, <br><br>
         <img class="post-img" src="/assets/img/cocos2dx/vec.png">
-        <p style="font-size: 1.2rem; margin-top: 2rem;">
-            해상도를 720 x 1280 으로 했을떄, <br>
+        <p style="font-size: 1.1rem;">
             위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 )
         </p>
-        <p class="text-left">
+        <hr class="hr-dashed"/>
+        <p>
             <h2> Sprite(이미지를 창에 띄우는 방법) </h2>
             <img class="post-img" src="/assets/img/cocos2dx/sprite.png">
         </p>
+        <hr class="hr-dashed"/>
+        <p>
+            <h2> Sprite AnchorPoint (이미지의 어느부분을 기준으로 할지) </h2>
+                cocos 는 이미지의 uv 값을 사용해서 기준을 이미지의 기준을 잡는데 <br>
+                <del>uv값 (어려우니까 그냥 이미지에 있는 값이라 생각하자)</del><br>
+            <img class="post-img" src="/assets/img/cocos2dx/uv.png"><br>
+            대충 이미지에 이러한 값이 있다...<br>
+            <img class="post-img" src="/assets/img/cocos2dx/anc.png"><br>
+            이것을 이렇게 설정해주면<br>
+            <img class="post-img" src="/assets/img/cocos2dx/anchor.png"><br>
+            sprite 의 포지션은 같은데 기준이달라서 이러한 현상이 생긴다.
+        </p>
+        <hr class="hr-dashed"/>
+        <p>
+            <h2> Sprite  Scale(이미지의 크기 조절) </h2>
+            <img class="post-img" src="/assets/img/cocos2dx/scale.png"><br>
+            <img class="post-img" src="/assets/img/cocos2dx/sc.png"><br>
+            첫번째 이미지는 기본 상태.
+        </p>
+        <hr class="hr-dashed"/>
     </div>
 </div>

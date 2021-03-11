@@ -9,45 +9,19 @@
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="cocos tutorial" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Cocos-2dx 기본적인 폴더 구조 Classes 개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳 cocos2d cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음. proj.win32 win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더 Resources 게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다. Cocos-2dx 기본적인 프로젝트 구조 폴더랑 필터랑 다른부분!! nclude filter 이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음. main filter 메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음. classes filter 게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등 scenes filter 게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분 win32 filter 창을 생성해주는 부분 (WINMAIN)건들필요 X Cocos2d 의 좌표계 해상도를 720 x 1280 으로 했을떄, 위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 ) Sprite(이미지를 창에 띄우는 방법)" />
-<meta property="og:description" content="Cocos-2dx 기본적인 폴더 구조 Classes 개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳 cocos2d cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음. proj.win32 win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더 Resources 게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다. Cocos-2dx 기본적인 프로젝트 구조 폴더랑 필터랑 다른부분!! nclude filter 이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음. main filter 메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음. classes filter 게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등 scenes filter 게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분 win32 filter 창을 생성해주는 부분 (WINMAIN)건들필요 X Cocos2d 의 좌표계 해상도를 720 x 1280 으로 했을떄, 위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 ) Sprite(이미지를 창에 띄우는 방법)" />
+<meta name="description" content="Cocos-2dx 기본적인 폴더 구조 Classes 개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳 cocos2d cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음. proj.win32 win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더 Resources 게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다. Cocos-2dx 기본적인 프로젝트 구조 폴더랑 필터랑 다른부분!! nclude filter 이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음. main filter 메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음. classes filter 게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등 scenes filter 게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분 win32 filter 창을 생성해주는 부분 (WINMAIN)건들필요 X Cocos2d 의 좌표계 해상도를 720 x 1280 으로 했을떄, 위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 ) Sprite(이미지를 창에 띄우는 방법) Sprite AnchorPoint (이미지의 어느부분을 기준으로 할지) cocos 는 이미지의 uv 값을 사용해서 기준을 이미지의 기준을 잡는데 uv값 (어려우니까 그냥 이미지에 있는 값이라 생각하자) 대충 이미지에 이러한 값이 있다... 이것을 이렇게 설정해주면 sprite 의 포지션은 같은데 기준이달라서 이러한 현상이 생긴다. Sprite Scale(이미지의 크기 조절) 첫번째 이미지는 기본 상태." />
+<meta property="og:description" content="Cocos-2dx 기본적인 폴더 구조 Classes 개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳 cocos2d cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음. proj.win32 win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더 Resources 게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다. Cocos-2dx 기본적인 프로젝트 구조 폴더랑 필터랑 다른부분!! nclude filter 이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음. main filter 메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음. classes filter 게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등 scenes filter 게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분 win32 filter 창을 생성해주는 부분 (WINMAIN)건들필요 X Cocos2d 의 좌표계 해상도를 720 x 1280 으로 했을떄, 위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 ) Sprite(이미지를 창에 띄우는 방법) Sprite AnchorPoint (이미지의 어느부분을 기준으로 할지) cocos 는 이미지의 uv 값을 사용해서 기준을 이미지의 기준을 잡는데 uv값 (어려우니까 그냥 이미지에 있는 값이라 생각하자) 대충 이미지에 이러한 값이 있다... 이것을 이렇게 설정해주면 sprite 의 포지션은 같은데 기준이달라서 이러한 현상이 생긴다. Sprite Scale(이미지의 크기 조절) 첫번째 이미지는 기본 상태." />
 <link rel="canonical" href="http://localhost:4000/cocos/2021/03/11/cocos.html" />
 <meta property="og:url" content="http://localhost:4000/cocos/2021/03/11/cocos.html" />
 <meta property="og:site_name" content="Sunforest99" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-03-11T00:00:00+09:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/cocos/2021/03/11/cocos.html","headline":"cocos tutorial","dateModified":"2021-03-11T00:00:00+09:00","datePublished":"2021-03-11T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/cocos/2021/03/11/cocos.html"},"description":"Cocos-2dx 기본적인 폴더 구조 Classes 개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳 cocos2d cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음. proj.win32 win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더 Resources 게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다. Cocos-2dx 기본적인 프로젝트 구조 폴더랑 필터랑 다른부분!! nclude filter 이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음. main filter 메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음. classes filter 게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등 scenes filter 게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분 win32 filter 창을 생성해주는 부분 (WINMAIN)건들필요 X Cocos2d 의 좌표계 해상도를 720 x 1280 으로 했을떄, 위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 ) Sprite(이미지를 창에 띄우는 방법)","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/cocos/2021/03/11/cocos.html","headline":"cocos tutorial","dateModified":"2021-03-11T00:00:00+09:00","datePublished":"2021-03-11T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/cocos/2021/03/11/cocos.html"},"description":"Cocos-2dx 기본적인 폴더 구조 Classes 개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳 cocos2d cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음. proj.win32 win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더 Resources 게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다. Cocos-2dx 기본적인 프로젝트 구조 폴더랑 필터랑 다른부분!! nclude filter 이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음. main filter 메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음. classes filter 게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등 scenes filter 게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분 win32 filter 창을 생성해주는 부분 (WINMAIN)건들필요 X Cocos2d 의 좌표계 해상도를 720 x 1280 으로 했을떄, 위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 ) Sprite(이미지를 창에 띄우는 방법) Sprite AnchorPoint (이미지의 어느부분을 기준으로 할지) cocos 는 이미지의 uv 값을 사용해서 기준을 이미지의 기준을 잡는데 uv값 (어려우니까 그냥 이미지에 있는 값이라 생각하자) 대충 이미지에 이러한 값이 있다... 이것을 이렇게 설정해주면 sprite 의 포지션은 같은데 기준이달라서 이러한 현상이 생긴다. Sprite Scale(이미지의 크기 조절) 첫번째 이미지는 기본 상태.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="https://yuristrap-cdn.vercel.app/1.0.3/css/yuri.css">
-    <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sunforest99" /></head><body><header class="site-header"><nav class="navbar navbar-light navbar-md fixed-top">
-		<a class="navbar-brand" href="/">
-			<img style="width: 2.5rem; height: 2.5rem;" src="/assets/img/sunforest99.png"/>
-		</a>
-		<button class="navbar-toggler" type="button" data-target="#navbar-collapse-00" data-toggle="collapse">
-			<svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-				stroke="currentColor">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
-				</path>
-			</svg>
-		</button><div class="collapse navbar-collapse"><div class="navbar-collapse">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="/project/">project</a>
-					</li>
-				</ul><div class="navbar-collapse">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="/about/">About</a>
-					</li>
-				</ul></div><div class="form-check dsp-flex align-items-center">
-				<input class="container_toggle form-switch-input" type="checkbox" id="switch" name="mode">
-				<label class="form-switch-label size-md" for="switch" id="dakrmode"></label>
-			</div>
-		</div>
-	</nav>
-</header>
-<main class="page-content" aria-label="Content">
+    <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sunforest99" /></head><body>
+  <main class="page-content" aria-label="Content">
     <div class="container">
       <div class="row">
     <div class="col-md-12"  style="margin-top: 5rem;">
@@ -83,38 +57,42 @@
             </p>
         </div>
         <h2 style="margin-top: 5rem; margin-bottom: 2rem;"> Cocos2d 의 좌표계</h2>
+        해상도를 720 x 1280 으로 했을떄, <br><br>
         <img class="post-img" src="/assets/img/cocos2dx/vec.png">
-        <p style="font-size: 1.2rem; margin-top: 2rem;">
-            해상도를 720 x 1280 으로 했을떄, <br>
+        <p style="font-size: 1.1rem;">
             위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 )
         </p>
-        <p class="text-left">
+        <hr class="hr-dashed"/>
+        <p>
             <h2> Sprite(이미지를 창에 띄우는 방법) </h2>
             <img class="post-img" src="/assets/img/cocos2dx/sprite.png">
         </p>
+        <hr class="hr-dashed"/>
+        <p>
+            <h2> Sprite AnchorPoint (이미지의 어느부분을 기준으로 할지) </h2>
+                cocos 는 이미지의 uv 값을 사용해서 기준을 이미지의 기준을 잡는데 <br>
+                <del>uv값 (어려우니까 그냥 이미지에 있는 값이라 생각하자)</del><br>
+            <img class="post-img" src="/assets/img/cocos2dx/uv.png"><br>
+            대충 이미지에 이러한 값이 있다...<br>
+            <img class="post-img" src="/assets/img/cocos2dx/anc.png"><br>
+            이것을 이렇게 설정해주면<br>
+            <img class="post-img" src="/assets/img/cocos2dx/anchor.png"><br>
+            sprite 의 포지션은 같은데 기준이달라서 이러한 현상이 생긴다.
+        </p>
+        <hr class="hr-dashed"/>
+        <p>
+            <h2> Sprite  Scale(이미지의 크기 조절) </h2>
+            <img class="post-img" src="/assets/img/cocos2dx/scale.png"><br>
+            <img class="post-img" src="/assets/img/cocos2dx/sc.png"><br>
+            첫번째 이미지는 기본 상태.
+        </p>
+        <hr class="hr-dashed"/>
     </div>
 </div>
     </div>
-  </main><footer class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<h5>Contact</h5> 
-				<p>
-					<img style="width: 32px; height: 32px; vertical-align: middle;" src="/assets/img/about-img/mail.png"/>
-					taeyang93002@daum.net<br>
-				</p>
-			</div>
-			<div class="col-md-4">
-				<ul class="dsp-flex align-items-stretch footer-ul">
-					<li><a href="https://github.com/sunforest99"><img src="/assets/img/footer/github.png"></a></li>
-					<li><a href="https://github.com/yuristrap/yuristrap"><img src="/assets/img/footer/yuristrap.png"></a></li>
-					<li><a href="https://www.youtube.com/playlist?list=PLpIuIaJJQbTE6ovBvOnzUBcOu0z0uUyEX"><img src="/assets/img/footer/youtube.png"></a></li>
-                </ul>
-			</div>
-		</div>
-	</div>
-</footer><!-- end of body -->
+  </main>
+
+  <!-- end of body -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script type="text/javascript" src="https://yuristrap-cdn.vercel.app/1.0.3/js/yuri.js"></script>
   <script type="text/javascript" src="/assets/js/home.js"></script>
