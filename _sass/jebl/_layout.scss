@@ -62,6 +62,26 @@
     }
 }
 
-.post-img {
-    max-width: 100%;
+
+.post {
+
+    ul {
+        padding-left: 0px;
+    }
+
+    li {
+        list-style-position : inside;
+    }
+    
+    blockquote {
+        padding-top: 5px;
+        padding-bottom: 2px;
+        background-color: lighten(#B897FF, 50%);
+        border-left: #B897FF 4px solid;
+        padding-left: 14px;
+    }
+
+    .post-img {
+        max-width: 100%;
+    }
 }

@@ -52,6 +52,12 @@ body { padding-top: 5rem; }
 
 .footer-ul img { margin-right: 1rem; width: 32px; height: 32px; }
 
-.post-img { max-width: 100%; }
+.post ul { padding-left: 0px; }
+
+.post li { list-style-position: inside; }
+
+.post blockquote { padding-top: 5px; padding-bottom: 2px; background-color: white; border-left: #B897FF 4px solid; padding-left: 14px; }
+
+.post .post-img { max-width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

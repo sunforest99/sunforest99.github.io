@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-11T17:31:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">cocos tutorial</title><link href="http://localhost:4000/cocos/2021/03/11/cocos.html" rel="alternate" type="text/html" title="cocos tutorial" /><published>2021-03-11T00:00:00+09:00</published><updated>2021-03-11T00:00:00+09:00</updated><id>http://localhost:4000/cocos/2021/03/11/cocos</id><content type="html" xml:base="http://localhost:4000/cocos/2021/03/11/cocos.html">&lt;div class=&quot;row&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-14T18:26:43+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">cocos tutorial</title><link href="http://localhost:4000/cocos/2021/03/11/cocos.html" rel="alternate" type="text/html" title="cocos tutorial" /><published>2021-03-11T00:00:00+09:00</published><updated>2021-03-11T00:00:00+09:00</updated><id>http://localhost:4000/cocos/2021/03/11/cocos</id><content type="html" xml:base="http://localhost:4000/cocos/2021/03/11/cocos.html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;col-md-12&quot;  style=&quot;margin-top: 5rem;&quot;&gt;
         &lt;div class=&quot;alert alert-primary text-center&quot;&gt;
             &lt;h2&gt;Cocos-2dx 기본적인 폴더 구조&lt;/h2&gt;
@@ -86,142 +86,213 @@
 			adf
 		&lt;/h1&gt;
 	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2020.2.2f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Yuristarp</title><link href="http://localhost:4000/project/2020/11/22/yuristrap.html" rel="alternate" type="text/html" title="Yuristarp" /><published>2020-11-22T00:00:00+09:00</published><updated>2020-11-22T00:00:00+09:00</updated><id>http://localhost:4000/project/2020/11/22/yuristrap</id><content type="html" xml:base="http://localhost:4000/project/2020/11/22/yuristrap.html">&lt;div class=&quot;row text-center&quot;&gt;
-    &lt;div class=&quot;col-md-12&quot; style=&quot;margin-top: 5rem;&quot;&gt;
-    	&lt;h3&gt;Yuristarp&lt;/h3&gt;
-    	&lt;hr class=&quot;hr-dashed&quot;&gt;
-    	&lt;p&gt;Yuristarp 웹 프레임워크 &lt;br&gt;
-    	  &lt;h3&gt;개발자&lt;/h3&gt;
-    	  &lt;ui&gt;
-    	  &lt;li&gt;&lt;a href = &quot;https://github.com/kyechan99&quot;&gt;강예찬 &lt;/a&gt;&lt;/li&gt;
-    	  &lt;li&gt;&lt;a href = &quot;https://github.com/sunforest99&quot;&gt;김태양 &lt;/a&gt;&lt;/li&gt;
-    	  &lt;/ui&gt;
-    	&lt;br&gt;		  
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Web" /><category term="scss" /><category term="js" /><category term="frontend-framwork" /><summary type="html">Yuristarp Yuristarp 웹 프레임워크 개발자 강예찬 김태양</summary></entry><entry><title type="html">Shape Of You</title><link href="http://localhost:4000/project/2019/03/04/shape-of-you.html" rel="alternate" type="text/html" title="Shape Of You" /><published>2019-03-04T00:00:00+09:00</published><updated>2019-03-04T00:00:00+09:00</updated><id>http://localhost:4000/project/2019/03/04/shape-of-you</id><content type="html" xml:base="http://localhost:4000/project/2019/03/04/shape-of-you.html">&lt;div class=&quot;row text-center&quot;&gt;
-    &lt;div class=&quot;col-md-12&quot; style=&quot;margin-top: 5rem;&quot;&gt;
-    	&lt;h3&gt;Shape-Of-You&lt;/h3&gt;
-    	&lt;hr class=&quot;hr-dashed&quot;&gt;
-    	&lt;p&gt;Shape of You 클라이언트 &lt;br&gt;
-    	  &lt;h3&gt;개발자&lt;/h3&gt;
-    	  &lt;ui&gt;
-    	  &lt;li&gt;&lt;a href = &quot;https://github.com/kyechan99&quot;&gt;강예찬 &lt;/a&gt;&lt;/li&gt;
-    	  &lt;li&gt;&lt;a href = &quot;https://github.com/sunforest99&quot;&gt;김태양 &lt;/a&gt;&lt;/li&gt;
-    	  &lt;/ui&gt;&lt;br&gt;
-    	  &lt;h6&gt;맵제작 도움&lt;/h6&gt;
-    	  &lt;ui&gt;
-    	    &lt;li&gt;&lt;a href = &quot;https://github.com/hhh57463&quot;&gt;심민석 &lt;/a&gt;&lt;/li&gt;
-    	  &lt;/ui&gt;
-    	&lt;br&gt;
-    	&lt;h3&gt; 개발 엔진 &lt;/h3&gt;Unity&lt;br&gt;&lt;br&gt;
-    	  &lt;H3&gt; 게임 인원 &lt;/H3&gt;
-    	  3 ~ 9 명&lt;br&gt;
-    	  인원수&amp;nbsp;&amp;nbsp;&amp;nbsp;경찰수&lt;br&gt;
-    	  3&amp;emsp;&amp;emsp;&amp;emsp;1&lt;br&gt;
-    	  6&amp;emsp;&amp;emsp;&amp;emsp;2&lt;br&gt;
-    	  9&amp;emsp;&amp;emsp;&amp;emsp;3&lt;br&gt;&lt;br&gt;
-    	&lt;h4&gt;2017.09.09 맥버전&lt;/h4&gt;
-    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Shape-Of-You_MAC.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    	&lt;p&gt;&lt;H2&gt; 스킬 설명 &lt;/H2&gt;&lt;/p&gt;
-    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Rule.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Thief.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    	&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Police.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    	&lt;p&gt;
-    	  &lt;bt&gt;Client: &lt;a href=&quot;https://github.com/sunforest99/Shape-Of-You-Client/releases&quot;&gt;Shape-Of-You-Client&lt;/a&gt; ( .exe, .apk )&lt;/bt&gt; -
-    	  &lt;bt&gt;Server: &lt;a href=&quot;https://github.com/kyechan99/Shape-Of-You-Server/releases&quot;&gt;Shape-Of-You-Server&lt;/a&gt;&lt;/bt&gt; -
-    	  &lt;bt&gt;Date: 24 July, 2017&lt;/bt&gt;
-    	&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2019.4.15f1" /><category term="Game" /><category term="C#" /><summary type="html">Shape-Of-You Shape of You 클라이언트 개발자 강예찬 김태양 맵제작 도움 심민석 개발 엔진 Unity 게임 인원 3 ~ 9 명 인원수&amp;nbsp;&amp;nbsp;&amp;nbsp;경찰수 3&amp;emsp;&amp;emsp;&amp;emsp;1 6&amp;emsp;&amp;emsp;&amp;emsp;2 9&amp;emsp;&amp;emsp;&amp;emsp;3 2017.09.09 맥버전 스킬 설명 Client: Shape-Of-You-Client ( .exe, .apk ) - Server: Shape-Of-You-Server - Date: 24 July, 2017</summary></entry><entry><title type="html">Crush Me</title><link href="http://localhost:4000/project/2018/03/08/crush-me.html" rel="alternate" type="text/html" title="Crush Me" /><published>2018-03-08T00:00:00+09:00</published><updated>2018-03-08T00:00:00+09:00</updated><id>http://localhost:4000/project/2018/03/08/crush-me</id><content type="html" xml:base="http://localhost:4000/project/2018/03/08/crush-me.html">&lt;div class=&quot;row text-center&quot;&gt;
-	&lt;div class=&quot;col-md-12&quot;  style=&quot;margin-top: 5rem;&quot;&gt;
-   		&lt;h3&gt;Crush Me&lt;/h3&gt;
-   		&lt;hr class=&quot;hr-dashed&quot;&gt;
-			&lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/huduck-factory&quot;&gt; huduck-factory &lt;/a&gt; &lt;br&gt; 팀 - 허덕팩토리 (한국게임과학고등학교 동아리) &lt;br&gt;
-   		팀원 : &lt;a href=&quot;https://github.com/hhh57463&quot;&gt; 심민석 &lt;/a&gt;,&lt;a href=&quot;https://github.com/sunforest99&quot;&gt; 김태양 &lt;/a&gt;, 오인석 , 류병현 &lt;br&gt;&lt;br&gt;
-   		  &lt;h3&gt; 개발 엔진 &lt;/h3&gt; Unity&lt;br&gt;
-   		&lt;p&gt;&lt;img src=&quot;/assets/img/portfolio/crushme/crushmelogo.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-   		&lt;p&gt;&lt;img src=&quot;/assets/img/portfolio/crushme/crushmegame.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-   		&lt;p&gt;ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다.&lt;/p&gt;
-   		&lt;p&gt;
-   		  &lt;bt&gt;Client: &lt;a href=&quot;https://github.com/huduck-factory/crush-me&quot;&gt;huduck-factory/crush-me&lt;/a&gt;&lt;/bt&gt; -
-   		  &lt;bt&gt;Organization: &lt;a href=&quot;https://github.com/huduck-factory&quot;&gt;huduck-factory&lt;/a&gt;&lt;/bt&gt; -
-   		  &lt;bt&gt;Date: 11 Aug, 2017 (Latest commit)&lt;/bt&gt; 
-   		&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2017.1.1f1" /><category term="Game" /><category term="C#" /><summary type="html">Crush Me TEAM - huduck-factory 팀 - 허덕팩토리 (한국게임과학고등학교 동아리) 팀원 : 심민석 , 김태양 , 오인석 , 류병현 개발 엔진 Unity ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다. Client: huduck-factory/crush-me - Organization: huduck-factory - Date: 11 Aug, 2017 (Latest commit)</summary></entry><entry><title type="html">Long Time No See</title><link href="http://localhost:4000/project/2017/02/20/long-time-no-see.html" rel="alternate" type="text/html" title="Long Time No See" /><published>2017-02-20T00:00:00+09:00</published><updated>2017-02-20T00:00:00+09:00</updated><id>http://localhost:4000/project/2017/02/20/long-time-no-see</id><content type="html" xml:base="http://localhost:4000/project/2017/02/20/long-time-no-see.html">&lt;div class=&quot;row text-center&quot;&gt;
-  &lt;div class=&quot;col-md-12&quot; style=&quot;margin-top: 5rem;&quot;&gt;
-        &lt;h3&gt;Long Time No See&lt;/h3&gt;
-        &lt;hr class=&quot;hr-dashed&quot;/&gt;
-        &lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br&gt; 팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br&gt; 
-          팀원 : &lt;a href = &quot;https://github.com/kyechan99&quot;&gt; 강예찬 &lt;/a&gt;,&lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt; 강석찬 &lt;/a&gt;,&lt;a href=&quot;https://github.com/sunforest99&quot;&gt; 김태양 &lt;/a&gt;, 김동원 , 배명한 , 고대호&lt;br&gt;&lt;br&gt;
-          &lt;h3&gt;수상이력&lt;/h3&gt; 1. 한국게임과학고등학교 학교장배 게임제작 동상 &lt;br&gt;&lt;br&gt;
-          &lt;h3&gt; 개발 엔진 &lt;/h3&gt;Unity&lt;br&gt;&lt;br&gt;
-        &lt;strong&gt; 인트로 동영상 &lt;/strong&gt;
-		&lt;div&gt;
-      &lt;iframe width=&quot;660&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/8Qpubbh6KFk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-		&lt;/div&gt;
-        &lt;p&gt;
-          &lt;bt&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/LongTimeNoSee&quot;&gt;GanZinam/LongTimeNoSee&lt;/a&gt;&lt;/bt&gt; -
-          &lt;bt&gt;Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt;&lt;/bt&gt; -
-          &lt;bt&gt;Date: 18 Mar, 2017 (Latest commit)&lt;/bt&gt;
-        &lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="Game" /><category term="C#" /><summary type="html">Long Time No See TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬 , 강석찬 , 김태양 , 김동원 , 배명한 , 고대호 수상이력 1. 한국게임과학고등학교 학교장배 게임제작 동상 개발 엔진 Unity 인트로 동영상 Client: GanZinam/LongTimeNoSee - Organization: GanZinam - Date: 18 Mar, 2017 (Latest commit)</summary></entry><entry><title type="html">Road Of Dead</title><link href="http://localhost:4000/project/2016/11/29/Road-of-dead.html" rel="alternate" type="text/html" title="Road Of Dead" /><published>2016-11-29T00:00:00+09:00</published><updated>2016-11-29T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/29/Road-of-dead</id><content type="html" xml:base="http://localhost:4000/project/2016/11/29/Road-of-dead.html">&lt;div class=&quot;row text-center&quot;&gt;
-  &lt;div class=&quot;col-md-12&quot; style=&quot;margin-top: 5rem;&quot;&gt;
-    &lt;h3&gt;Road Of Dead&lt;/h3&gt;
-    &lt;hr class=&quot;hr-dashed&quot; /&gt;
-    &lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br&gt; 팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br&gt; 팀원 : &lt;a
-        href=&quot;https://github.com/kyechan99&quot;&gt;강예찬&lt;/a&gt; , &lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt; 강석찬&lt;/a&gt; ,&lt;a
-        href=&quot;https://github.com/sunforest99&quot;&gt; 김태양 &lt;/a&gt;, 김동원
-      , 배명한 , 고대호&lt;br&gt;&lt;br&gt;
-    &lt;h3&gt;수상이력&lt;/h3&gt; 1. 한국게임과학고등학교 학교장배 게임제작 은상 &lt;br&gt;&lt;br&gt;
-    &lt;h3&gt; 개발 엔진 &lt;/h3&gt;Unity&lt;br&gt;&lt;br&gt;
-    &lt;h4&gt;Version&lt;/h4&gt;
-    &lt;ui&gt;
-      &lt;li&gt;2016.11.4 ~ 2016.11.17 : ver 0.0.1&lt;/li&gt;
-      &lt;li&gt;2016.11.18 ~ 2016.11.29: ver 0.0.2&lt;/li&gt;
-      &lt;li&gt;2016.11.30 ~ : ver 0.1.0&lt;/li&gt;
-    &lt;/ui&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-    &lt;h3&gt; 게임 플레이 &lt;/h3&gt;
-    &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/road-of-Dead/TeamLogo.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/road-of-Dead/GameLogo.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/road-of-Dead/GamePlay.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다.&lt;/p&gt;
-    &lt;bt&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/Road-Of-Dead&quot;&gt;GanZinam/Road-Of-Dead&lt;/a&gt;&lt;/bt&gt; -
-    &lt;bt&gt;Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt;&lt;/bt&gt; -
-    &lt;bt&gt;Date: 18 Mar, 2017 (Latest commit)&lt;/bt&gt;
-    &lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NUGI" /><category term="Game" /><category term="C#" /><summary type="html">Road Of Dead TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬 , 강석찬 , 김태양 , 김동원 , 배명한 , 고대호 수상이력 1. 한국게임과학고등학교 학교장배 게임제작 은상 개발 엔진 Unity Version 2016.11.4 ~ 2016.11.17 : ver 0.0.1 2016.11.18 ~ 2016.11.29: ver 0.0.2 2016.11.30 ~ : ver 0.1.0 게임 플레이 ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다. Client: GanZinam/Road-Of-Dead - Organization: GanZinam - Date: 18 Mar, 2017 (Latest commit)</summary></entry><entry><title type="html">Bing-Bong</title><link href="http://localhost:4000/project/2016/11/07/bing-bong.html" rel="alternate" type="text/html" title="Bing-Bong" /><published>2016-11-07T00:00:00+09:00</published><updated>2016-11-07T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/07/bing-bong</id><content type="html" xml:base="http://localhost:4000/project/2016/11/07/bing-bong.html">&lt;div class=&quot;row text-center&quot;&gt;
-    &lt;div class=&quot;col-md-12&quot; style=&quot;margin-top: 5rem;&quot;&gt;
-        &lt;h3&gt;Bing-Bong&lt;/h3&gt;
-        &lt;hr class=&quot;hr-dashed&quot;/&gt;
-        &lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br&gt; 팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br&gt; 팀원 : &lt;a href=&quot;https://github.com/kyechan99&quot;&gt; 강예찬 &lt;/a&gt;,&lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt; 강석찬 &lt;/a&gt;,&lt;a href=&quot;https://github.com/sunforest99&quot;&gt; 김태양 &lt;/a&gt;, 김동원 , 배명한 , 고대호&lt;br&gt;&lt;br&gt;
-          &lt;h3&gt; 개발 엔진 &lt;/h3&gt; Unity&lt;br&gt;&lt;br&gt;
-          &lt;h3&gt;수상이력&lt;/h3&gt; 1. 한국게임과학고등학교 스마트폰 게임 개발 정책 포럼 금상 &lt;br&gt;2. 2016년도 글로벌 인디 게임 제작 경진대회 장려상 &lt;br&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/bing-bong/Bing-Bong_Logo.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/bing-bong/playing.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-        &lt;p&gt;ps. 모바일게임을 exe로 빌드해서 찍은 스샷입니다.&lt;/p&gt;
-        &lt;p&gt;
-          &lt;bt&gt;Client: &lt;a class=&quot;list-group-item-primary&quot; href=&quot;https://github.com/GanZinam/Bing-Bong&quot;&gt;GanZinam/Bing-Bong&lt;/a&gt;&lt;/bt&gt; - 
-          &lt;bt&gt;Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt;&lt;/bt&gt; -
-          &lt;bt&gt;Date: 18 Mar, 2017 (Latest commit)&lt;/bt&gt;
-        &lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NGUI" /><category term="Game" /><category term="C#" /><summary type="html">Bing-Bong TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬 , 강석찬 , 김태양 , 김동원 , 배명한 , 고대호 개발 엔진 Unity 수상이력 1. 한국게임과학고등학교 스마트폰 게임 개발 정책 포럼 금상 2. 2016년도 글로벌 인디 게임 제작 경진대회 장려상 ps. 모바일게임을 exe로 빌드해서 찍은 스샷입니다. Client: GanZinam/Bing-Bong - Organization: GanZinam - Date: 18 Mar, 2017 (Latest commit)</summary></entry><entry><title type="html">D.O</title><link href="http://localhost:4000/project/2016/11/07/do.html" rel="alternate" type="text/html" title="D.O" /><published>2016-11-07T00:00:00+09:00</published><updated>2016-11-07T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/07/do</id><content type="html" xml:base="http://localhost:4000/project/2016/11/07/do.html">&lt;div class=&quot;row text-center&quot;&gt;
-	&lt;div class=&quot;col-md-12&quot; style=&quot;margin-top: 5rem;&quot;&gt;
-		&lt;h3&gt;D.O&lt;/h3&gt;
-		&lt;hr class=&quot;hr-dashed&quot;/&gt;
-		&lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br&gt; 팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br&gt; 팀원 : &lt;a href=&quot;https://github.com/kyechan99&quot;&gt; 강예찬 &lt;/a&gt;,&lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt;강석찬&lt;/a&gt; ,&lt;a href=&quot;https://github.com/sunforest99&quot;&gt;김태양 &lt;/a&gt;,김동원 ,배명한 ,고대호&lt;br&gt;&lt;br&gt;&lt;h3&gt; 개발 엔진 &lt;/h3&gt;Unity&lt;br&gt;&lt;/p&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;col-md-12&quot;&gt;
-        &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/DO.jpg&quot; alt=&quot;&quot;&gt;
-        &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/theme.jpg&quot; alt=&quot;&quot;&gt;
-        &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/DOGame.jpg&quot; alt=&quot;&quot;&gt;
-        &lt;bt&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/D.O&quot;&gt;GanZinam/D.O&lt;/a&gt;&lt;/bt&gt; -
-        &lt;bt&gt;Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt;&lt;/bt&gt; -
-        &lt;bt&gt;Date: 7 Nov, 2016 (Latest commit)&lt;/bt&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.3.2f1" /><category term="Game" /><category term="C#" /><category term="Multiplayer" /><summary type="html">D.O TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬 ,강석찬 ,김태양 ,김동원 ,배명한 ,고대호 개발 엔진 Unity Client: GanZinam/D.O - Organization: GanZinam - Date: 7 Nov, 2016 (Latest commit)</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2020.2.2f1" /><category term="Game" /><category term="C#" /><summary type="html">adf</summary></entry><entry><title type="html">Yuristarp</title><link href="http://localhost:4000/project/2020/11/22/yuristrap.html" rel="alternate" type="text/html" title="Yuristarp" /><published>2020-11-22T00:00:00+09:00</published><updated>2020-11-22T00:00:00+09:00</updated><id>http://localhost:4000/project/2020/11/22/yuristrap</id><content type="html" xml:base="http://localhost:4000/project/2020/11/22/yuristrap.html">&lt;h3 id=&quot;yuristarp&quot;&gt;Yuristarp&lt;/h3&gt;
+&lt;hr class=&quot;hr-dashed&quot; /&gt;
+
+&lt;p&gt;Yuristarp 웹 프레임워크 &lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;개발자&quot;&gt;개발자&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kyechan99&quot;&gt;강예찬&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sunforest99&quot;&gt;김태양&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://avatars1.githubusercontent.com/u/68942934?s=200&amp;amp;v=4&quot; width=&quot;150&quot; /&gt;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;b&gt;Poor than Bootstrap. Responsive. Dark mode. Customizable&lt;/b&gt;
+  &lt;br /&gt;  
+  &lt;br /&gt; 
+ &lt;img src=&quot;https://img.shields.io/badge/version-1.0.2-%23C5A4D8?style=for-the-badge&quot; /&gt;
+  &lt;br /&gt;  
+ &lt;img src=&quot;https://img.shields.io/netlify/6e32703e-74ac-40fc-80ef-40e79f8c2de2?label=BUILD&amp;amp;style=for-the-badge&quot; /&gt;
+ &lt;img src=&quot;https://img.shields.io/github/issues/yuristrap/yuristrap?style=for-the-badge&quot; /&gt;
+ &lt;img src=&quot;https://img.shields.io/github/license/yuristrap/yuristrap?style=for-the-badge&quot; /&gt;
+ &lt;a href=&quot;https://yuristrap.github.io/&quot;&gt;
+ 	&lt;img src=&quot;https://img.shields.io/badge/Document-SITE-%235f5fff?style=for-the-badge&quot; /&gt;
+ &lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;latest-version&quot;&gt;Latest Version&lt;/h2&gt;
+&lt;h3 id=&quot;css&quot;&gt;CSS&lt;/h3&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://yuristrap-cdn.vercel.app/1.0.2/css/yuri.css
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;js&quot;&gt;JS&lt;/h3&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://yuristrap-cdn.vercel.app/1.0.2/js/yuri.js
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;use-environment&quot;&gt;Use Environment&lt;/h2&gt;
+&lt;h3 id=&quot;write-meta&quot;&gt;Write meta&lt;/h3&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;use-jquery&quot;&gt;Use jquery&lt;/h3&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://code.jquery.com/jquery-3.5.1.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;customize&quot;&gt;Customize&lt;/h2&gt;
+&lt;p&gt;You can customize what you want.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;How? - &lt;a href=&quot;https://yuristrap.github.io/v1.0/introduction/customize&quot;&gt;Docs - Customize&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;version-list&quot;&gt;Version list&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;v1.0.2 (latest)&lt;/li&gt;
+  &lt;li&gt;v1.0.1&lt;/li&gt;
+  &lt;li&gt;v1.0.0&lt;/li&gt;
+  &lt;li&gt;v0.1.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What has changed? - &lt;a href=&quot;https://yuristrap.github.io/v1.0/introduction/version&quot;&gt;Docs - version&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;sass-environment&quot;&gt;Sass Environment&lt;/h2&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install -g node-sass
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node-sass&lt;/code&gt; module&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;node-sass --output-style compressed scss/yuri.scss --output dist/css
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Build &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;compressed&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;node-sass --watch scss/yuri.scss dist/css/yuri.css
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Build &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;watch mode&lt;/code&gt;&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Web" /><category term="scss" /><category term="js" /><category term="frontend-framwork" /><summary type="html">Yuristarp Yuristarp 웹 프레임워크</summary></entry><entry><title type="html">Shape Of You</title><link href="http://localhost:4000/project/2019/03/04/shape-of-you.html" rel="alternate" type="text/html" title="Shape Of You" /><published>2019-03-04T00:00:00+09:00</published><updated>2019-03-04T00:00:00+09:00</updated><id>http://localhost:4000/project/2019/03/04/shape-of-you</id><content type="html" xml:base="http://localhost:4000/project/2019/03/04/shape-of-you.html">&lt;h3 id=&quot;shape-of-you&quot;&gt;Shape-Of-You&lt;/h3&gt;
+&lt;hr class=&quot;hr-dashed&quot; /&gt;
+
+&lt;p&gt;Shape of You 클라이언트&lt;/p&gt;
+
+&lt;h3 id=&quot;개발자&quot;&gt;개발자&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kyechan99&quot;&gt;강예찬&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/sunforest99&quot;&gt;김태양&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;-맵제작-도움-&quot;&gt;&lt;strong&gt; 맵제작 도움 &lt;strong&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hhh57463&quot;&gt;심민석&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;개발-엔진&quot;&gt;개발 엔진&lt;/h3&gt;
+&lt;p&gt;Unity&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;게임-인원&quot;&gt;게임 인원&lt;/h3&gt;
+&lt;p&gt;3 ~ 9 명&lt;br /&gt;
+인원수   경찰수&lt;br /&gt;
+3   1&lt;br /&gt;
+6   2&lt;br /&gt;
+9   3&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;20170909-맥버전&quot;&gt;2017.09.09 맥버전&lt;/h4&gt;
+&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Shape-Of-You_MAC.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;스킬-설명&quot;&gt;스킬 설명&lt;/h2&gt;
+&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Rule.png&quot; alt=&quot;&quot; /&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Thief.png&quot; alt=&quot;&quot; /&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/shape-of-you/Police.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Client: &lt;a href=&quot;https://github.com/sunforest99/Shape-Of-You-Client/releases&quot;&gt;Shape-Of-You-Client&lt;/a&gt; - 
+Server: &lt;a href=&quot;https://github.com/kyechan99/Shape-Of-You-Server/releases&quot;&gt;Shape-Of-You-Server&lt;/a&gt; -
+Date: 24 July, 2017 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2019.4.15f1" /><category term="Game" /><category term="C#" /><summary type="html">Shape-Of-You Shape of You 클라이언트</summary></entry><entry><title type="html">Crush Me</title><link href="http://localhost:4000/project/2018/03/08/crush-me.html" rel="alternate" type="text/html" title="Crush Me" /><published>2018-03-08T00:00:00+09:00</published><updated>2018-03-08T00:00:00+09:00</updated><id>http://localhost:4000/project/2018/03/08/crush-me</id><content type="html" xml:base="http://localhost:4000/project/2018/03/08/crush-me.html">&lt;h3 id=&quot;crush-me&quot;&gt;Crush Me&lt;/h3&gt;
+&lt;hr class=&quot;hr-dashed&quot; /&gt;
+
+&lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/huduck-factory&quot;&gt;huduck-factory&lt;/a&gt;&lt;br /&gt; 팀 - 허덕팩토리 (한국게임과학고등학교 동아리) &lt;br /&gt;
+팀원 : &lt;a href=&quot;https://github.com/hhh57463&quot;&gt;심민석&lt;/a&gt;,&lt;a href=&quot;https://github.com/sunforest99&quot;&gt;김태양&lt;/a&gt;, 오인석 , 류병현 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;개발-엔진&quot;&gt;개발 엔진&lt;/h3&gt;
+&lt;p&gt;Unity&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/portfolio/crushme/crushmelogo.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/assets/img/portfolio/crushme/crushmegame.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다.&lt;/p&gt;
+
+&lt;p&gt;Client: &lt;a href=&quot;https://github.com/huduck-factory/crush-me&quot;&gt;huduck-factory/crush-me&lt;/a&gt; - 
+Organization: &lt;a href=&quot;https://github.com/huduck-factory&quot;&gt;huduck-factory&lt;/a&gt; -
+Date: Date: 11 Aug, 2017 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2017.1.1f1" /><category term="Game" /><category term="C#" /><summary type="html">Crush Me</summary></entry><entry><title type="html">Long Time No See</title><link href="http://localhost:4000/project/2017/02/20/long-time-no-see.html" rel="alternate" type="text/html" title="Long Time No See" /><published>2017-02-20T00:00:00+09:00</published><updated>2017-02-20T00:00:00+09:00</updated><id>http://localhost:4000/project/2017/02/20/long-time-no-see</id><content type="html" xml:base="http://localhost:4000/project/2017/02/20/long-time-no-see.html">&lt;h3 id=&quot;long-time-no-see&quot;&gt;Long Time No See&lt;/h3&gt;
+&lt;hr class=&quot;hr-dashed&quot; /&gt;
+
+&lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br /&gt;
+팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br /&gt;
+팀원 : &lt;a href=&quot;https://github.com/kyechan99&quot;&gt;강예찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt;강석찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/sunforest99&quot;&gt;김태양&lt;/a&gt;, 김동원 , 배명한 , 고대호&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;수상이력&quot;&gt;수상이력&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;한국게임과학고등학교 학교장배 게임제작 동상&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;개발-엔진&quot;&gt;개발 엔진&lt;/h3&gt;
+&lt;p&gt;Unity&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; 인트로 동영상 &lt;/strong&gt;&lt;/p&gt;
+&lt;iframe width=&quot;660&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/8Qpubbh6KFk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/LongTimeNoSee&quot;&gt;GanZinam/LongTimeNoSee&lt;/a&gt; - 
+Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt; -
+Date: Date: 18 Mar, 2017 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="Game" /><category term="C#" /><summary type="html">Long Time No See TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬, 강석찬, 김태양, 김동원 , 배명한 , 고대호</summary></entry><entry><title type="html">Road Of Dead</title><link href="http://localhost:4000/project/2016/11/29/Road-of-dead.html" rel="alternate" type="text/html" title="Road Of Dead" /><published>2016-11-29T00:00:00+09:00</published><updated>2016-11-29T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/29/Road-of-dead</id><content type="html" xml:base="http://localhost:4000/project/2016/11/29/Road-of-dead.html">&lt;h3 id=&quot;road-of-dead&quot;&gt;Road Of Dead&lt;/h3&gt;
+&lt;hr class=&quot;hr-dashed&quot; /&gt;
+
+&lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br /&gt;
+팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br /&gt;
+팀원 : &lt;a href=&quot;https://github.com/kyechan99&quot;&gt;강예찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt;강석찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/sunforest99&quot;&gt;김태양&lt;/a&gt;, 김동원 , 배명한 , 고대호&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;수상이력&quot;&gt;수상이력&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;한국게임과학고등학교 학교장배 게임제작 은상 &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;개발-엔진&quot;&gt;개발 엔진&lt;/h3&gt;
+&lt;p&gt;Unity&lt;/p&gt;
+
+&lt;h4 id=&quot;version&quot;&gt;Version&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;2016.11.4 ~ 2016.11.17 : ver 0.0.1&lt;/li&gt;
+  &lt;li&gt;2016.11.18 ~ 2016.11.29: ver 0.0.2&lt;/li&gt;
+  &lt;li&gt;2016.11.30 ~ : ver 0.1.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;게임-플레이&quot;&gt;게임 플레이&lt;/h3&gt;
+&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/road-of-Dead/TeamLogo.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/road-of-Dead/GameLogo.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/road-of-Dead/GamePlay.jpg&quot; alt=&quot;&quot; /&gt;
+ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다.&lt;/p&gt;
+
+&lt;p&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/Road-Of-Dead&quot;&gt;GanZinam/Road-Of-Dead&lt;/a&gt; - 
+Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt; -
+Date: Date: 18 Mar, 2017 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NUGI" /><category term="Game" /><category term="C#" /><summary type="html">Road Of Dead TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬, 강석찬, 김태양, 김동원 , 배명한 , 고대호</summary></entry><entry><title type="html">Bing-Bong</title><link href="http://localhost:4000/project/2016/11/07/bing-bong.html" rel="alternate" type="text/html" title="Bing-Bong" /><published>2016-11-07T00:00:00+09:00</published><updated>2016-11-07T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/07/bing-bong</id><content type="html" xml:base="http://localhost:4000/project/2016/11/07/bing-bong.html">&lt;h3 id=&quot;bing-bong&quot;&gt;Bing-Bong&lt;/h3&gt;
+&lt;hr class=&quot;hr-dashed&quot; /&gt;
+
+&lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br /&gt;
+팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br /&gt;
+팀원 : &lt;a href=&quot;https://github.com/kyechan99&quot;&gt;강예찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt;강석찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/sunforest99&quot;&gt;김태양&lt;/a&gt;, 김동원 , 배명한 , 고대호&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;개발-엔진-&quot;&gt;개발 엔진 &lt;br /&gt;&lt;/h3&gt;
+&lt;p&gt;Unity&lt;/p&gt;
+
+&lt;h3 id=&quot;수상이력&quot;&gt;수상이력&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. 한국게임과학고등학교 스마트폰 게임 개발 정책 포럼 금상 &lt;br /&gt;2. 2016년도 글로벌 인디 게임 제작 경진대회 장려상 &lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/bing-bong/Bing-Bong_Logo.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/bing-bong/playing.jpg&quot; alt=&quot;&quot; /&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ps. 모바일게임을 exe로 빌드해서 찍은 스샷입니다.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/Bing-Bong&quot;&gt;GanZinam/Bing-Bong&lt;/a&gt; - 
+Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt; -
+Date: 18 Mar, 2017 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NGUI" /><category term="Game" /><category term="C#" /><summary type="html">Bing-Bong TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬, 강석찬, 김태양, 김동원 , 배명한 , 고대호</summary></entry><entry><title type="html">D.O</title><link href="http://localhost:4000/project/2016/11/07/do.html" rel="alternate" type="text/html" title="D.O" /><published>2016-11-07T00:00:00+09:00</published><updated>2016-11-07T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/07/do</id><content type="html" xml:base="http://localhost:4000/project/2016/11/07/do.html">&lt;h3 id=&quot;do&quot;&gt;D.O&lt;/h3&gt;
+&lt;hr class=&quot;hr-dashed&quot; /&gt;
+
+&lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br /&gt;
+팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br /&gt;
+팀원 : &lt;a href=&quot;https://github.com/kyechan99&quot;&gt;강예찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt;강석찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/sunforest99&quot;&gt;김태양&lt;/a&gt;, 김동원 , 배명한 , 고대호&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;개발-엔진&quot;&gt;개발 엔진&lt;/h3&gt;
+&lt;p&gt;Unity&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/DO.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/theme.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/DOGame.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/D.O&quot;&gt;GanZinam/D.O&lt;/a&gt; - 
+Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt; -
+Date: Date: 7 Nov, 2016 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.3.2f1" /><category term="Game" /><category term="C#" /><category term="Multiplayer" /><summary type="html">D.O TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬, 강석찬, 김태양, 김동원 , 배명한 , 고대호</summary></entry></feed>
