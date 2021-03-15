@@ -1,6 +1,16 @@
 body {
 	padding-top: 5rem;
 }
+:root {
+	--blockquoteBG: #{$blockquote-bg};
+	--codetagBG : #e0e0e0;
+}
+
+html[data-theme='dark'] {
+	--blockquoteBG: #{$blockquote-night-bg};
+	--codetagBG: #28303c;
+}
+
 .container {
 	padding-bottom: 3rem;
 }

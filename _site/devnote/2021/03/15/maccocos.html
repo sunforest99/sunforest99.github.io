@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang=" ko"> <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Google Auth -->
+	<meta name="google-site-verification" content="CPBHSXOcqx3RLJ-Pn1Vr34l30UqV46HXj7Et7LsCM7U" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>맥에서 Cocos2dx 빌드 오류 해결방법 | Sunforest99</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="맥에서 Cocos2dx 빌드 오류 해결방법" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="맥에서 Cocos2dx 빌드 오류 해결방법" />
+<meta property="og:description" content="맥에서 Cocos2dx 빌드 오류 해결방법" />
+<link rel="canonical" href="http://localhost:4000/devnote/2021/03/15/maccocos.html" />
+<meta property="og:url" content="http://localhost:4000/devnote/2021/03/15/maccocos.html" />
+<meta property="og:site_name" content="Sunforest99" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-03-15T00:00:00+09:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"http://localhost:4000/devnote/2021/03/15/maccocos.html","headline":"맥에서 Cocos2dx 빌드 오류 해결방법","dateModified":"2021-03-15T00:00:00+09:00","datePublished":"2021-03-15T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/devnote/2021/03/15/maccocos.html"},"description":"맥에서 Cocos2dx 빌드 오류 해결방법","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="https://yuristrap-cdn.vercel.app/1.0.3/css/yuri.css">
+    <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sunforest99" /></head><body><header class="site-header"><nav class="navbar navbar-light navbar-md fixed-top">
+		<a class="navbar-brand" href="/">
+			<img style="width: 2.5rem; height: 2.5rem;" src="/assets/img/sunforest99.png"/>
+		</a>
+		<button class="navbar-toggler" type="button" data-target="#navbar-collapse-00" data-toggle="collapse">
+			<svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+				stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+				</path>
+			</svg>
+		</button><div class="collapse navbar-collapse"><div class="navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="/devnote/">DevNote</a>
+					</li>
+				</ul><div class="navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="/project/">project</a>
+					</li>
+				</ul><div class="navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="/about/">About</a>
+					</li>
+				</ul></div><div class="form-check dsp-flex align-items-center">
+				<input class="container_toggle form-switch-input" type="checkbox" id="switch" name="mode">
+				<label class="form-switch-label size-md" for="switch" id="dakrmode"></label>
+			</div>
+		</div>
+	</nav>
+</header>
+<main class="page-content" aria-label="Content">
+    <div class="container">
+      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="post-content e-content" itemprop="articleBody">
+    <div class="row">
+      <divc class="col-md-12 post" style="margin-top: 5rem;"><h1 id="맥에서-cocos2dx-빌드-오류-해결방법">맥에서 Cocos2dx 빌드 오류 해결방법</h1>
+<p><br /></p>
+
+<h3 id="실행환경">실행환경</h3>
+<h4 id="20210315-기준">2021.03.15 기준</h4>
+<ul>
+  <li><strong>macOS Big Sur v11.2.2</strong><br /></li>
+  <li><strong>Xcode v12.4</strong><br /></li>
+  <li><strong>android-ndk-r16b</strong><br /></li>
+  <li><strong>Cocos2d-x-3.17.2</strong><br /></li>
+</ul>
+
+<h3 id="프로젝트-생성">프로젝트 생성</h3>
+<p>터미널에다 아래 명렁어를 치면 기본 프로젝트가 생성된다.</p>
+
+<blockquote>
+  <p>$ cocos new [프로젝트 이름] -p [패키지 이름] -l [사용언어] -d [프로젝트 생성할 위치]</p>
+</blockquote>
+
+<h3 id="xcode-로-실행--빌드-오류-해결방법">Xcode 로 실행 &amp; 빌드 오류 해결방법</h3>
+<blockquote>
+  <p>/[프로젝트 이름]/proj.ios_mac/[프로젝트 이름].xcodeproj</p>
+</blockquote>
+
+<p>폴더 안으로 들어가서 .xcodeproj 을 실행시키고 빌드를 하면. 아래와 같이 오류가 발생한다.</p>
+
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/firstbuild.png" alt="" /><br /></p>
+
+<h5 id="btvector3h-에-들어가서-42번-째-줄을-아래-사진처럼-바꿔주면-해결된다">btVector3.h 에 들어가서 42번 째 줄을 아래 사진처럼 바꿔주면 해결된다.</h5>
+
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/firstsolved.png" alt="" /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> #define BT_SHUFFLE(x,y,z,w) (((w) &lt;&lt; 6 | (z) &lt;&lt; 4 | (y) &lt;&lt; 2 | (X)) &amp; 0xff)
+</code></pre></div></div>
+
+<h5 id="btvector3h-해결된-후-다른-오류가-발생하는데-무려-123개나-된다">btVector3.h 해결된 후 다른 오류가 발생하는데 무려 123개나 된다…</h5>
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/secproblem.png" alt="" style="height: 62.5rem;" /></p>
+
+<h5 id="해결방법"><strong>해결방법</strong></h5>
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/secsolved.png" alt="" /></p>
+<blockquote>
+  <p>위에 사진처럼 project-&gt;buildsetting 으로 들어가 arm64 armv7 뒤에 x86_64 를 입력해주면 해결된다.</p>
+</blockquote>
+
+<h5 id="해결후-신나게-빌드하면"><strong>해결후 신나게 빌드하면</strong></h5>
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/simerror.png" alt="" /><br />
+이렇게 에러가 나게된다…<br />
+<del> 이제 그만좀… </del></p>
+
+<h5 id="해결법은-간단하다">해결법은 간단하다.</h5>
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/lastsolved.png" alt="" /><br /></p>
+<blockquote>
+  <p>위에 사진처럼 project-&gt;General 으로 들어가 비어있는 Version 을 입력하면 된다.</p>
+</blockquote>
+</div>
+    </div>
+  </div><a class="u-url" href="/devnote/2021/03/15/maccocos.html" hidden></a>
+</article>
+    </div>
+  </main><footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h5>Contact</h5> 
+				<p>
+					<img style="width: 32px; height: 32px; vertical-align: middle;" src="/assets/img/about-img/mail.png"/>
+					taeyang93002@daum.net<br>
+				</p>
+			</div>
+			<div class="col-md-4">
+				<ul class="dsp-flex align-items-stretch footer-ul">
+					<li><a href="https://github.com/sunforest99"><img src="/assets/img/footer/github.png"></a></li>
+					<li><a href="https://github.com/yuristrap/yuristrap"><img src="/assets/img/footer/yuristrap.png"></a></li>
+					<li><a href="https://www.youtube.com/playlist?list=PLpIuIaJJQbTE6ovBvOnzUBcOu0z0uUyEX"><img src="/assets/img/footer/youtube.png"></a></li>
+                </ul>
+			</div>
+		</div>
+	</div>
+</footer><!-- end of body -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="https://yuristrap-cdn.vercel.app/1.0.3/js/yuri.js"></script>
+  <script type="text/javascript" src="/assets/js/home.js"></script>
+</body>
+
+
+</html>

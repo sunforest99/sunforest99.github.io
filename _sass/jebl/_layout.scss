@@ -62,7 +62,6 @@
     }
 }
 
-
 .post {
 
     ul {
@@ -72,11 +71,23 @@
     li {
         list-style-position : inside;
     }
+
+    .highlight {
+        margin-bottom: 16px;
+        padding: 2px 2px 2px 2px;
+        background-color: var(--codetagBG);
+        border-radius: 5px;
+        font-size: 18px;
+        
+        // code {
+        //     color: #201D23;
+        // }
+    }
     
     blockquote {
         padding-top: 5px;
         padding-bottom: 2px;
-        background-color: lighten(#B897FF, 50%);
+        background-color: var(--blockquoteBG);
         border-left: #B897FF 4px solid;
         padding-left: 14px;
     }

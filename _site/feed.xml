@@ -1,69 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-14T18:26:43+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">cocos tutorial</title><link href="http://localhost:4000/cocos/2021/03/11/cocos.html" rel="alternate" type="text/html" title="cocos tutorial" /><published>2021-03-11T00:00:00+09:00</published><updated>2021-03-11T00:00:00+09:00</updated><id>http://localhost:4000/cocos/2021/03/11/cocos</id><content type="html" xml:base="http://localhost:4000/cocos/2021/03/11/cocos.html">&lt;div class=&quot;row&quot;&gt;
-    &lt;div class=&quot;col-md-12&quot;  style=&quot;margin-top: 5rem;&quot;&gt;
-        &lt;div class=&quot;alert alert-primary text-center&quot;&gt;
-            &lt;h2&gt;Cocos-2dx 기본적인 폴더 구조&lt;/h2&gt;
-            &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/folder.png&quot;&gt;
-            &lt;p&gt;
-            &lt;h5&gt;&lt;strong&gt; Classes &lt;/strong&gt; &lt;/h5&gt;
-                개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳
-            &lt;h5&gt;&lt;strong&gt;  cocos2d &lt;/strong&gt;&lt;/h5&gt;
-                cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음.
-            &lt;h5&gt;&lt;strong&gt;  proj.win32 &lt;/strong&gt;&lt;/h5&gt;
-                win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더
-            &lt;h5&gt;&lt;strong&gt;  Resources &lt;/strong&gt;&lt;/h5&gt;
-                게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다.
-            &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;alert alert-success text-center&quot;&gt;
-            &lt;h2&gt;Cocos-2dx 기본적인 프로젝트 구조&lt;/h2&gt;
-            &lt;h4&gt;&lt;strong&gt;폴더랑 필터랑 다른부분!!&lt;/strong&gt;&lt;/h4&gt;
-            &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/base.png&quot;&gt;
-            &lt;p&gt;
-                &lt;h5&gt;&lt;strong&gt; nclude filter &lt;/strong&gt;&lt;/h5&gt;
-                    이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음.
-                &lt;h5&gt;&lt;strong&gt; main filter &lt;/strong&gt;&lt;/h5&gt;
-                    메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음.
-                &lt;h5&gt;&lt;strong&gt; classes filter &lt;/strong&gt;&lt;/h5&gt;
-                    게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등
-                &lt;h5&gt;&lt;strong&gt; scenes filter &lt;/strong&gt;&lt;/h5&gt;
-                    게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분
-                &lt;h5&gt;&lt;strong&gt; win32 filter &lt;/strong&gt;&lt;/h5&gt;
-                    창을 생성해주는 부분 (WINMAIN)건들필요 X
-            &lt;/p&gt;
-        &lt;/div&gt;
-        &lt;h2 style=&quot;margin-top: 5rem; margin-bottom: 2rem;&quot;&gt; Cocos2d 의 좌표계&lt;/h2&gt;
-        해상도를 720 x 1280 으로 했을떄, &lt;br&gt;&lt;br&gt;
-        &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/vec.png&quot;&gt;
-        &lt;p style=&quot;font-size: 1.1rem;&quot;&gt;
-            위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 )
-        &lt;/p&gt;
-        &lt;hr class=&quot;hr-dashed&quot;/&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-15T12:03:14+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">맥에서 Cocos2dx 빌드 오류 해결방법</title><link href="http://localhost:4000/devnote/2021/03/15/maccocos.html" rel="alternate" type="text/html" title="맥에서 Cocos2dx 빌드 오류 해결방법" /><published>2021-03-15T00:00:00+09:00</published><updated>2021-03-15T00:00:00+09:00</updated><id>http://localhost:4000/devnote/2021/03/15/maccocos</id><content type="html" xml:base="http://localhost:4000/devnote/2021/03/15/maccocos.html">&lt;h1 id=&quot;맥에서-cocos2dx-빌드-오류-해결방법&quot;&gt;맥에서 Cocos2dx 빌드 오류 해결방법&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;실행환경&quot;&gt;실행환경&lt;/h3&gt;
+&lt;h4 id=&quot;20210315-기준&quot;&gt;2021.03.15 기준&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;macOS Big Sur v11.2.2&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Xcode v12.4&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;android-ndk-r16b&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cocos2d-x-3.17.2&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;프로젝트-생성&quot;&gt;프로젝트 생성&lt;/h3&gt;
+&lt;p&gt;터미널에다 아래 명렁어를 치면 기본 프로젝트가 생성된다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ cocos new [프로젝트 이름] -p [패키지 이름] -l [사용언어] -d [프로젝트 생성할 위치]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;xcode-로-실행--빌드-오류-해결방법&quot;&gt;Xcode 로 실행 &amp;amp; 빌드 오류 해결방법&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;/[프로젝트 이름]/proj.ios_mac/[프로젝트 이름].xcodeproj&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;폴더 안으로 들어가서 .xcodeproj 을 실행시키고 빌드를 하면. 아래와 같이 오류가 발생한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/devnote/cocosbuild/firstbuild.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;btvector3h-에-들어가서-42번-째-줄을-아래-사진처럼-바꿔주면-해결된다&quot;&gt;btVector3.h 에 들어가서 42번 째 줄을 아래 사진처럼 바꿔주면 해결된다.&lt;/h5&gt;
+
+&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/devnote/cocosbuild/firstsolved.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; #define BT_SHUFFLE(x,y,z,w) (((w) &amp;lt;&amp;lt; 6 | (z) &amp;lt;&amp;lt; 4 | (y) &amp;lt;&amp;lt; 2 | (X)) &amp;amp; 0xff)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;btvector3h-해결된-후-다른-오류가-발생하는데-무려-123개나-된다&quot;&gt;btVector3.h 해결된 후 다른 오류가 발생하는데 무려 123개나 된다…&lt;/h5&gt;
+&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/devnote/cocosbuild/secproblem.png&quot; alt=&quot;&quot; style=&quot;height: 62.5rem;&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;해결방법&quot;&gt;&lt;strong&gt;해결방법&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/devnote/cocosbuild/secsolved.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;위에 사진처럼 project-&amp;gt;buildsetting 으로 들어가 arm64 armv7 뒤에 x86_64 를 입력해주면 해결된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;해결후-신나게-빌드하면&quot;&gt;&lt;strong&gt;해결후 신나게 빌드하면&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/devnote/cocosbuild/simerror.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+이렇게 에러가 나게된다…&lt;br /&gt;
+&lt;del&gt; 이제 그만좀… &lt;/del&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;해결법은-간단하다&quot;&gt;해결법은 간단하다.&lt;/h5&gt;
+&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/devnote/cocosbuild/lastsolved.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;위에 사진처럼 project-&amp;gt;General 으로 들어가 비어있는 Version 을 입력하면 된다.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="devnote" /><category term="Cococ2dx" /><category term="Game" /><category term="C++" /><category term="MacOS" /><summary type="html">맥에서 Cocos2dx 빌드 오류 해결방법</summary></entry><entry><title type="html">cocos tutorial</title><link href="http://localhost:4000/cocos/2021/03/11/cocos.html" rel="alternate" type="text/html" title="cocos tutorial" /><published>2021-03-11T00:00:00+09:00</published><updated>2021-03-11T00:00:00+09:00</updated><id>http://localhost:4000/cocos/2021/03/11/cocos</id><content type="html" xml:base="http://localhost:4000/cocos/2021/03/11/cocos.html">&lt;div class=&quot;alert alert-primary text-center&quot;&gt;
+        &lt;h2&gt;Cocos-2dx 기본적인 폴더 구조&lt;/h2&gt;
+        &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/folder.png&quot; /&gt;
         &lt;p&gt;
-            &lt;h2&gt; Sprite(이미지를 창에 띄우는 방법) &lt;/h2&gt;
-            &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/sprite.png&quot;&gt;
+        &lt;h5&gt;&lt;strong&gt; Classes &lt;/strong&gt; &lt;/h5&gt;
+            개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳
+        &lt;h5&gt;&lt;strong&gt;  cocos2d &lt;/strong&gt;&lt;/h5&gt;
+            cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음.
+        &lt;h5&gt;&lt;strong&gt;  proj.win32 &lt;/strong&gt;&lt;/h5&gt;
+            win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더
+        &lt;h5&gt;&lt;strong&gt;  Resources &lt;/strong&gt;&lt;/h5&gt;
+            게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다.
         &lt;/p&gt;
-        &lt;hr class=&quot;hr-dashed&quot;/&gt;
-        &lt;p&gt;
-            &lt;h2&gt; Sprite AnchorPoint (이미지의 어느부분을 기준으로 할지) &lt;/h2&gt;
-                cocos 는 이미지의 uv 값을 사용해서 기준을 이미지의 기준을 잡는데 &lt;br&gt;
-                &lt;del&gt;uv값 (어려우니까 그냥 이미지에 있는 값이라 생각하자)&lt;/del&gt;&lt;br&gt;
-            &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/uv.png&quot;&gt;&lt;br&gt;
-            대충 이미지에 이러한 값이 있다...&lt;br&gt;
-            &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/anc.png&quot;&gt;&lt;br&gt;
-            이것을 이렇게 설정해주면&lt;br&gt;
-            &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/anchor.png&quot;&gt;&lt;br&gt;
-            sprite 의 포지션은 같은데 기준이달라서 이러한 현상이 생긴다.
-        &lt;/p&gt;
-        &lt;hr class=&quot;hr-dashed&quot;/&gt;
-        &lt;p&gt;
-            &lt;h2&gt; Sprite  Scale(이미지의 크기 조절) &lt;/h2&gt;
-            &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/scale.png&quot;&gt;&lt;br&gt;
-            &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/sc.png&quot;&gt;&lt;br&gt;
-            첫번째 이미지는 기본 상태.
-        &lt;/p&gt;
-        &lt;hr class=&quot;hr-dashed&quot;/&gt;
     &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="cocos" /><summary type="html">Cocos-2dx 기본적인 폴더 구조 Classes 개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳 cocos2d cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음. proj.win32 win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더 Resources 게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다. Cocos-2dx 기본적인 프로젝트 구조 폴더랑 필터랑 다른부분!! nclude filter 이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음. main filter 메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음. classes filter 게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등 scenes filter 게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분 win32 filter 창을 생성해주는 부분 (WINMAIN)건들필요 X Cocos2d 의 좌표계 해상도를 720 x 1280 으로 했을떄, 위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 , 1280 ) Sprite(이미지를 창에 띄우는 방법) Sprite AnchorPoint (이미지의 어느부분을 기준으로 할지) cocos 는 이미지의 uv 값을 사용해서 기준을 이미지의 기준을 잡는데 uv값 (어려우니까 그냥 이미지에 있는 값이라 생각하자) 대충 이미지에 이러한 값이 있다... 이것을 이렇게 설정해주면 sprite 의 포지션은 같은데 기준이달라서 이러한 현상이 생긴다. Sprite Scale(이미지의 크기 조절) 첫번째 이미지는 기본 상태.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-success text-center&quot;&gt;
+        &lt;h2&gt;Cocos-2dx 기본적인 프로젝트 구조&lt;/h2&gt;
+        &lt;h4&gt;&lt;strong&gt;폴더랑 필터랑 다른부분!!&lt;/strong&gt;&lt;/h4&gt;
+        &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/base.png&quot; /&gt;
+        &lt;p&gt;
+            &lt;h5&gt;&lt;strong&gt; nclude filter &lt;/strong&gt;&lt;/h5&gt;
+                이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음.
+            &lt;h5&gt;&lt;strong&gt; main filter &lt;/strong&gt;&lt;/h5&gt;
+                메인 필터 안에는 창의 크기, fps(초당 프레임) 설정, 초기 씬 생성 즉(AppDelegate class) 가 들어가있음.
+            &lt;h5&gt;&lt;strong&gt; classes filter &lt;/strong&gt;&lt;/h5&gt;
+                게임에 필요한 class 생성 하는 부분 ex) 몬스터, 플레이어 등등
+            &lt;h5&gt;&lt;strong&gt; scenes filter &lt;/strong&gt;&lt;/h5&gt;
+                게임의 장면 ex) 로딩부분, 인게임부분 씬만드는 부분
+            &lt;h5&gt;&lt;strong&gt; win32 filter &lt;/strong&gt;&lt;/h5&gt;
+                창을 생성해주는 부분 (WINMAIN)건들필요 X
+        &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 style=&quot;margin-top: 5rem; margin-bottom: 2rem;&quot;&gt; Cocos2d 의 좌표계&lt;/h2&gt;
+&lt;p&gt;해상도를 720 x 1280 으로 했을떄, &lt;br /&gt;&lt;br /&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/vec.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;font-size: 1.1rem;&quot;&gt;
+    위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 ,1280 )
+&lt;/p&gt;
+&lt;hr class=&quot;hr-dashed&quot; /&gt;
+
+&lt;p&gt;
+    &lt;h2&gt; Sprite(이미지를 창에 띄우는 방법) &lt;/h2&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/sprite.png&quot; /&gt;
+&lt;/p&gt;
+&lt;hr class=&quot;hr-dashed&quot; /&gt;
+
+&lt;p&gt;
+    &lt;h2&gt; Sprite AnchorPoint (이미지의 어느부분을 기준으로 할지) &lt;/h2&gt;
+        cocos 는 이미지의 uv 값을 사용해서 기준을 이미지의 기준을 잡는데 &lt;br /&gt;
+        &lt;del&gt;uv값 (어려우니까 그냥 이미지에 있는 값이라 생각하자)&lt;/del&gt;&lt;br /&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/uv.png&quot; /&gt;&lt;br /&gt;
+    대충 이미지에 이러한 값이 있다...&lt;br /&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/anc.png&quot; /&gt;&lt;br /&gt;
+    이것을 이렇게 설정해주면&lt;br /&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/anchor.png&quot; /&gt;&lt;br /&gt;
+    sprite 의 포지션은 같은데 기준이달라서 이러한 현상이 생긴다.
+&lt;/p&gt;
+&lt;hr class=&quot;hr-dashed&quot; /&gt;
+
+&lt;p&gt;
+    &lt;h2&gt; Sprite  Scale(이미지의 크기 조절) &lt;/h2&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/scale.png&quot; /&gt;&lt;br /&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/sc.png&quot; /&gt;&lt;br /&gt;
+    첫번째 이미지는 기본 상태.
+&lt;/p&gt;
+&lt;hr class=&quot;hr-dashed&quot; /&gt;</content><author><name></name></author><category term="cocos" /><summary type="html">Cocos-2dx 기본적인 폴더 구조 Classes 개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳 cocos2d cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음. proj.win32 win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더 Resources 게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -279,20 +332,4 @@ Date: Date: 18 Mar, 2017 (Latest commit)&lt;/p&gt;</content><author><name></name
 
 &lt;p&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/Bing-Bong&quot;&gt;GanZinam/Bing-Bong&lt;/a&gt; - 
 Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt; -
-Date: 18 Mar, 2017 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NGUI" /><category term="Game" /><category term="C#" /><summary type="html">Bing-Bong TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬, 강석찬, 김태양, 김동원 , 배명한 , 고대호</summary></entry><entry><title type="html">D.O</title><link href="http://localhost:4000/project/2016/11/07/do.html" rel="alternate" type="text/html" title="D.O" /><published>2016-11-07T00:00:00+09:00</published><updated>2016-11-07T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/07/do</id><content type="html" xml:base="http://localhost:4000/project/2016/11/07/do.html">&lt;h3 id=&quot;do&quot;&gt;D.O&lt;/h3&gt;
-&lt;hr class=&quot;hr-dashed&quot; /&gt;
-
-&lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br /&gt;
-팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br /&gt;
-팀원 : &lt;a href=&quot;https://github.com/kyechan99&quot;&gt;강예찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt;강석찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/sunforest99&quot;&gt;김태양&lt;/a&gt;, 김동원 , 배명한 , 고대호&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;개발-엔진&quot;&gt;개발 엔진&lt;/h3&gt;
-&lt;p&gt;Unity&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/DO.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/theme.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/DOGame.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/D.O&quot;&gt;GanZinam/D.O&lt;/a&gt; - 
-Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt; -
-Date: Date: 7 Nov, 2016 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.3.2f1" /><category term="Game" /><category term="C#" /><category term="Multiplayer" /><summary type="html">D.O TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬, 강석찬, 김태양, 김동원 , 배명한 , 고대호</summary></entry></feed>
+Date: 18 Mar, 2017 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NGUI" /><category term="Game" /><category term="C#" /><summary type="html">Bing-Bong TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬, 강석찬, 김태양, 김동원 , 배명한 , 고대호</summary></entry></feed>
