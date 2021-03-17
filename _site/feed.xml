@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-15T12:03:14+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">맥에서 Cocos2dx 빌드 오류 해결방법</title><link href="http://localhost:4000/devnote/2021/03/15/maccocos.html" rel="alternate" type="text/html" title="맥에서 Cocos2dx 빌드 오류 해결방법" /><published>2021-03-15T00:00:00+09:00</published><updated>2021-03-15T00:00:00+09:00</updated><id>http://localhost:4000/devnote/2021/03/15/maccocos</id><content type="html" xml:base="http://localhost:4000/devnote/2021/03/15/maccocos.html">&lt;h1 id=&quot;맥에서-cocos2dx-빌드-오류-해결방법&quot;&gt;맥에서 Cocos2dx 빌드 오류 해결방법&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-17T00:23:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">맥에서 Cocos2dx 빌드 오류 해결방법</title><link href="http://localhost:4000/devnote/2021/03/15/maccocos.html" rel="alternate" type="text/html" title="맥에서 Cocos2dx 빌드 오류 해결방법" /><published>2021-03-15T00:00:00+09:00</published><updated>2021-03-15T00:00:00+09:00</updated><id>http://localhost:4000/devnote/2021/03/15/maccocos</id><content type="html" xml:base="http://localhost:4000/devnote/2021/03/15/maccocos.html">&lt;h1 id=&quot;맥에서-cocos2dx-빌드-오류-해결방법&quot;&gt;맥에서 Cocos2dx 빌드 오류 해결방법&lt;/h1&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;실행환경&quot;&gt;실행환경&lt;/h3&gt;
@@ -52,7 +52,7 @@
   &lt;p&gt;위에 사진처럼 project-&amp;gt;General 으로 들어가 비어있는 Version 을 입력하면 된다.&lt;/p&gt;
 &lt;/blockquote&gt;</content><author><name></name></author><category term="devnote" /><category term="Cococ2dx" /><category term="Game" /><category term="C++" /><category term="MacOS" /><summary type="html">맥에서 Cocos2dx 빌드 오류 해결방법</summary></entry><entry><title type="html">cocos tutorial</title><link href="http://localhost:4000/cocos/2021/03/11/cocos.html" rel="alternate" type="text/html" title="cocos tutorial" /><published>2021-03-11T00:00:00+09:00</published><updated>2021-03-11T00:00:00+09:00</updated><id>http://localhost:4000/cocos/2021/03/11/cocos</id><content type="html" xml:base="http://localhost:4000/cocos/2021/03/11/cocos.html">&lt;div class=&quot;alert alert-primary text-center&quot;&gt;
         &lt;h2&gt;Cocos-2dx 기본적인 폴더 구조&lt;/h2&gt;
-        &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/folder.png&quot; /&gt;
+        &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/folder.png&quot;&gt;
         &lt;p&gt;
         &lt;h5&gt;&lt;strong&gt; Classes &lt;/strong&gt; &lt;/h5&gt;
             개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳
@@ -68,7 +68,7 @@
 &lt;div class=&quot;alert alert-success text-center&quot;&gt;
         &lt;h2&gt;Cocos-2dx 기본적인 프로젝트 구조&lt;/h2&gt;
         &lt;h4&gt;&lt;strong&gt;폴더랑 필터랑 다른부분!!&lt;/strong&gt;&lt;/h4&gt;
-        &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/base.png&quot; /&gt;
+        &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/base.png&quot;&gt;
         &lt;p&gt;
             &lt;h5&gt;&lt;strong&gt; nclude filter &lt;/strong&gt;&lt;/h5&gt;
                 이 안에는 define.h include.h 이 들어갈 위치 이외에는 쓸일없음.
@@ -84,39 +84,49 @@
 &lt;/div&gt;
 
 &lt;h2 style=&quot;margin-top: 5rem; margin-bottom: 2rem;&quot;&gt; Cocos2d 의 좌표계&lt;/h2&gt;
-&lt;p&gt;해상도를 720 x 1280 으로 했을떄, &lt;br /&gt;&lt;br /&gt;
-&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/vec.png&quot; /&gt;&lt;/p&gt;
+해상도를 720 x 1280 으로 했을떄, &lt;br&gt;&lt;br&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/vec.png&quot;&gt;
 &lt;p style=&quot;font-size: 1.1rem;&quot;&gt;
     위의 그림처럼 왼쪽 아래가 ( 0 , 0 ), 왼쪽 위가 ( 0 , 1280 ), 오른쪽 아래가 ( 720 , 0 ), 오른쪽 위가 ( 720 ,1280 )
 &lt;/p&gt;
-&lt;hr class=&quot;hr-dashed&quot; /&gt;
-
+&lt;hr class=&quot;hr-dashed&quot;/&gt;
 &lt;p&gt;
     &lt;h2&gt; Sprite(이미지를 창에 띄우는 방법) &lt;/h2&gt;
-    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/sprite.png&quot; /&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/sprite.png&quot;&gt;
 &lt;/p&gt;
-&lt;hr class=&quot;hr-dashed&quot; /&gt;
-
+&lt;hr class=&quot;hr-dashed&quot;/&gt;
+&lt;p&gt;
+    &lt;h2&gt; z-order 이란?&lt;/h2&gt;
+    어떤 이미지가 먼저 그려질지 순서를 정하는 것. 예시로 아래 사진 참고.&lt;br&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/z-order.png&quot; style=&quot;margin-left: 0px;&quot;&gt;
+&lt;/p&gt;
+&lt;hr class=&quot;hr-dashed&quot;/&gt;
 &lt;p&gt;
     &lt;h2&gt; Sprite AnchorPoint (이미지의 어느부분을 기준으로 할지) &lt;/h2&gt;
-        cocos 는 이미지의 uv 값을 사용해서 기준을 이미지의 기준을 잡는데 &lt;br /&gt;
-        &lt;del&gt;uv값 (어려우니까 그냥 이미지에 있는 값이라 생각하자)&lt;/del&gt;&lt;br /&gt;
-    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/uv.png&quot; /&gt;&lt;br /&gt;
-    대충 이미지에 이러한 값이 있다...&lt;br /&gt;
-    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/anc.png&quot; /&gt;&lt;br /&gt;
-    이것을 이렇게 설정해주면&lt;br /&gt;
-    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/anchor.png&quot; /&gt;&lt;br /&gt;
+        cocos 는 이미지의 uv 값을 사용해서 기준을 이미지의 기준을 잡는데 &lt;br&gt;
+        &lt;del&gt;uv값 (어려우니까 그냥 이미지에 있는 값이라 생각하자)&lt;/del&gt;&lt;br&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/uv.png&quot;&gt;&lt;br&gt;
+    대충 이미지에 이러한 값이 있다...&lt;br&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/anc.png&quot;&gt;&lt;br&gt;
+    이것을 이렇게 설정해주면&lt;br&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/anchor.png&quot;&gt;&lt;br&gt;
     sprite 의 포지션은 같은데 기준이달라서 이러한 현상이 생긴다.
 &lt;/p&gt;
-&lt;hr class=&quot;hr-dashed&quot; /&gt;
-
+&lt;hr class=&quot;hr-dashed&quot;/&gt;
 &lt;p&gt;
     &lt;h2&gt; Sprite  Scale(이미지의 크기 조절) &lt;/h2&gt;
-    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/scale.png&quot; /&gt;&lt;br /&gt;
-    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/sc.png&quot; /&gt;&lt;br /&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/scale.png&quot;&gt;&lt;br&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/sc.png&quot;&gt;&lt;br&gt;
     첫번째 이미지는 기본 상태.
 &lt;/p&gt;
-&lt;hr class=&quot;hr-dashed&quot; /&gt;</content><author><name></name></author><category term="cocos" /><summary type="html">Cocos-2dx 기본적인 폴더 구조 Classes 개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳 cocos2d cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음. proj.win32 win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더 Resources 게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;hr class=&quot;hr-dashed&quot;/&gt;
+&lt;p&gt;
+    &lt;h2&gt;Action&lt;/h2&gt;
+    &lt;img class=&quot;post-img&quot; src=&quot;/assets/img/cocos2dx/action.png&quot;&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    
+&lt;/p&gt;</content><author><name></name></author><category term="cocos" /><summary type="html">Cocos-2dx 기본적인 폴더 구조 Classes 개발을 하면서 필요한 class 파일 즉 .h .cpp 파일을 모아두는 곳 cocos2d cocos2d 엔진 소스코드가 들어가있는 폴더 기때문에 건들 필요가 없음. proj.win32 win32 개발환경에서 실행시킬수있개 해주는 시작 프로그램 폴더 Resources 게임에 들어가는 모든 이미지는 Resources 폴더안에 넣으면 됩니다.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-02-09T23:45:10+09:00</published><updated>2021-02-09T23:45:10+09:00</updated><id>http://localhost:4000/blog/2021/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2021/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
