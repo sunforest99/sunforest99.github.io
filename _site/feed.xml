@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-17T00:23:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">맥에서 Cocos2dx 빌드 오류 해결방법</title><link href="http://localhost:4000/devnote/2021/03/15/maccocos.html" rel="alternate" type="text/html" title="맥에서 Cocos2dx 빌드 오류 해결방법" /><published>2021-03-15T00:00:00+09:00</published><updated>2021-03-15T00:00:00+09:00</updated><id>http://localhost:4000/devnote/2021/03/15/maccocos</id><content type="html" xml:base="http://localhost:4000/devnote/2021/03/15/maccocos.html">&lt;h1 id=&quot;맥에서-cocos2dx-빌드-오류-해결방법&quot;&gt;맥에서 Cocos2dx 빌드 오류 해결방법&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-20T01:22:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">맥에서 Cocos2dx 빌드 오류 해결방법</title><link href="http://localhost:4000/devnote/2021/03/15/maccocos.html" rel="alternate" type="text/html" title="맥에서 Cocos2dx 빌드 오류 해결방법" /><published>2021-03-15T00:00:00+09:00</published><updated>2021-03-15T00:00:00+09:00</updated><id>http://localhost:4000/devnote/2021/03/15/maccocos</id><content type="html" xml:base="http://localhost:4000/devnote/2021/03/15/maccocos.html">&lt;h1 id=&quot;맥에서-cocos2dx-빌드-오류-해결방법&quot;&gt;맥에서 Cocos2dx 빌드 오류 해결방법&lt;/h1&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;실행환경&quot;&gt;실행환경&lt;/h3&gt;
@@ -323,23 +323,20 @@ ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다.&lt;/p&gt;
 
 &lt;p&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/Road-Of-Dead&quot;&gt;GanZinam/Road-Of-Dead&lt;/a&gt; - 
 Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt; -
-Date: Date: 18 Mar, 2017 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NUGI" /><category term="Game" /><category term="C#" /><summary type="html">Road Of Dead TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬, 강석찬, 김태양, 김동원 , 배명한 , 고대호</summary></entry><entry><title type="html">Bing-Bong</title><link href="http://localhost:4000/project/2016/11/07/bing-bong.html" rel="alternate" type="text/html" title="Bing-Bong" /><published>2016-11-07T00:00:00+09:00</published><updated>2016-11-07T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/07/bing-bong</id><content type="html" xml:base="http://localhost:4000/project/2016/11/07/bing-bong.html">&lt;h3 id=&quot;bing-bong&quot;&gt;Bing-Bong&lt;/h3&gt;
+Date: Date: 18 Mar, 2017 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NUGI" /><category term="Game" /><category term="C#" /><summary type="html">Road Of Dead TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬, 강석찬, 김태양, 김동원 , 배명한 , 고대호</summary></entry><entry><title type="html">D.O</title><link href="http://localhost:4000/project/2016/11/07/do.html" rel="alternate" type="text/html" title="D.O" /><published>2016-11-07T00:00:00+09:00</published><updated>2016-11-07T00:00:00+09:00</updated><id>http://localhost:4000/project/2016/11/07/do</id><content type="html" xml:base="http://localhost:4000/project/2016/11/07/do.html">&lt;h3 id=&quot;do&quot;&gt;D.O&lt;/h3&gt;
 &lt;hr class=&quot;hr-dashed&quot; /&gt;
 
 &lt;p&gt;TEAM - &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GANZINAM&lt;/a&gt; &lt;br /&gt;
 팀 - 간지남 한국게임과학고등학교 (3학년) &lt;br /&gt;
 팀원 : &lt;a href=&quot;https://github.com/kyechan99&quot;&gt;강예찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/KangSeockChan&quot;&gt;강석찬&lt;/a&gt;, &lt;a href=&quot;https://github.com/sunforest99&quot;&gt;김태양&lt;/a&gt;, 김동원 , 배명한 , 고대호&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;개발-엔진-&quot;&gt;개발 엔진 &lt;br /&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;개발-엔진&quot;&gt;개발 엔진&lt;/h3&gt;
 &lt;p&gt;Unity&lt;/p&gt;
 
-&lt;h3 id=&quot;수상이력&quot;&gt;수상이력&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;1. 한국게임과학고등학교 스마트폰 게임 개발 정책 포럼 금상 &lt;br /&gt;2. 2016년도 글로벌 인디 게임 제작 경진대회 장려상 &lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
-&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/bing-bong/Bing-Bong_Logo.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/bing-bong/playing.jpg&quot; alt=&quot;&quot; /&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/DO.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/theme.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img class=&quot;post-img&quot; src=&quot;/assets/img/portfolio/d.o/DOGame.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;ps. 모바일게임을 exe로 빌드해서 찍은 스샷입니다.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/Bing-Bong&quot;&gt;GanZinam/Bing-Bong&lt;/a&gt; - 
+&lt;p&gt;Client: &lt;a href=&quot;https://github.com/GanZinam/D.O&quot;&gt;GanZinam/D.O&lt;/a&gt; - 
 Organization: &lt;a href=&quot;https://github.com/GanZinam&quot;&gt;GanZinam&lt;/a&gt; -
-Date: 18 Mar, 2017 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.5.0f3" /><category term="NGUI" /><category term="Game" /><category term="C#" /><summary type="html">Bing-Bong TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬, 강석찬, 김태양, 김동원 , 배명한 , 고대호</summary></entry></feed>
+Date: Date: 7 Nov, 2016 (Latest commit)&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="Unity" /><category term="5.3.2f1" /><category term="Game" /><category term="C#" /><category term="Multiplayer" /><summary type="html">D.O TEAM - GANZINAM 팀 - 간지남 한국게임과학고등학교 (3학년) 팀원 : 강예찬, 강석찬, 김태양, 김동원 , 배명한 , 고대호</summary></entry></feed>
