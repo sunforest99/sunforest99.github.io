@@ -4,7 +4,7 @@ title: project
 permalink: /project/
 ---
 
-<h3>Project</h3>
+<h3 style="margin-bottom: 2rem; margin-top: 3rem;">프로젝트</h3>
 <div class="row justify-between" >
 {%- for category in site.categories -%}
 	{%- for post in category[1] -%}

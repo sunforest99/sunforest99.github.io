@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 <div class="row">
-    <img class="col-md-4" style="width :163px; height: 163px; margin-top:2rem;" src="/assets/img/sunforest99.png"/>
-    <div class="col-md-8 about-me text-center">
+    <img class="col-md border-rounded ex-border" style="margin-top:2rem;" src="/assets/img/profile.jpg"/>
+    <div class="col-md-9 about-me text-center">
         <h1><strong>Tae Yang Kim</strong></h1>
         <p style="margin-left: -200px;">
             <img style="width: 32px; height 32px; vertical-align: middle;" src="/assets/img/about-img/star.png"/>
