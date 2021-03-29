@@ -36,7 +36,9 @@ html[data-theme='dark'] { --blockquoteBG: #201D23; --codetagBG: #28303c; }
 
 .category-card .category-text { color: var(--darkColor); }
 
-.tag-group { padding: 0px 1rem 1rem 1rem; }
+.tag-group { padding: 0px 1rem 1rem 1rem; margin-left: -1rem; }
+
+.tag-group.project { margin-left: 0rem; }
 
 .tag-group .tag { margin-right: 4px; }
 

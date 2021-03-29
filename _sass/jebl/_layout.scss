@@ -11,6 +11,12 @@
 .tag-group
 {
     padding: 0px 1rem 1rem 1rem;
+    margin-left: -1rem;
+    &.project
+    {
+        margin-left: 0rem;
+    }
+   
     .tag
     {
         margin-right: 4px;
