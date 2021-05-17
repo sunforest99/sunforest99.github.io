@@ -53,7 +53,8 @@ permalink: /about/
     </div>
     <div class="col-md-7" id="right-about">
         <h3>Skills</h3>
-        <div class="div-skills dsp-flex">
+        <p><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunforest99&amp;layout=compact" alt="Top Langs" style="width: 30rem;"></a></p>
+        <!-- <div class="div-skills dsp-flex">
             Unity
 	        <div class="progress progress-filled skills-progress">
                 <div class="progress-bar progress-striped primary" role="progressbar" style="width: 60%; height:100%;"></div>
@@ -76,9 +77,9 @@ permalink: /about/
 	        <div class="progress progress-filled skills-progress">
                 <div class="progress-bar progress-striped primary" role="progressbar" style="width: 60%; height:100%;"></div>
             </div>
-        </div>
-        <hr class="hr-dashed" style="margin-top: 2rem;"/>
-        <h3>여기다는 뭐쓸까</h3>
-        <p>qwertyuiopasdfghjkkl;zxcvbnm,/<br>.,mqweoiruqwpeoijasdfkajsd;fjxzckvjxklc;a,nf.s,df<br>qwertyuiopasdfghjkkl;zxcvbnm,/<br>.,mqweoiruqwpeoijasdfkajsd;fjxzckvjxklc;a,nf.s,df<br>qwertyuiopasdfghjkkl;zxcvbnm,/<br>.,mqweoiruqwpeoijasdfkajsd;fjxzckvjxklc;a,nf.s,df<br></p>
+        </div> -->
+        <hr class="hr-dashed" style="margin-top: 2rem; margin-bottom: 2rem;"/>
+        <h3>Stats</h3>
+        <p><img src="https://github-readme-stats.vercel.app/api?username=sunforest99&amp;show_icons=true&amp;theme=dracula" alt="GitHub"></p>
     </div>
 </div>
