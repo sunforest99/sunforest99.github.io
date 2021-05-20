@@ -1,6 +1,6 @@
 # sunforest99.github.io
 
-[link][sunforest99.github.io]
+[link](sunforest99.github.io)
 
 start
 ```

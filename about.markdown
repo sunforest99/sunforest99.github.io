@@ -7,7 +7,7 @@ permalink: /about/
     <img class="col-md border-rounded ex-border" style="margin-top:2rem;" src="/assets/img/profile.jpg"/>
     <div class="col-md-9 about-me text-center">
         <h1><strong>Tae Yang Kim</strong></h1>
-        <p style="margin-left: -200px;">
+        <p style="margin-left: -200px; margin-top:2rem;">
             <img style="width: 32px; height 32px; vertical-align: middle;" src="/assets/img/about-img/star.png"/>
             1999.04.01
         </p>
@@ -32,11 +32,11 @@ permalink: /about/
             <div class="col-md vl">
                 <div class="circle"></div>
                 <ul class="history-ul">
-                    <li><strong>한국 게임 과학 고등학교 졸업 </strong></li>
-                    <li style="color: gray;">(2017)</li>
+                    <li><strong>남서울대학교 재학 중 </strong></li>
+                    <li style="color: gray;">(2018 ~ )</li>
                 </ul>
             </div>
-            <div class="col-md vl">
+            <!-- <div class="col-md vl">
                 <div class="circle"></div>
                 <ul class="history-ul">
                     <li><strong>한국 게임 과학 고등학교 졸업 </strong></li>
@@ -49,7 +49,7 @@ permalink: /about/
                     <li><strong>한국 게임 과학 고등학교 졸업 </strong></li>
                     <li style="color: gray;">(2017)</li>
                 </ul>
-            </div>
+            </div> -->
     </div>
     <div class="col-md-7" id="right-about">
         <h3>Skills</h3>
