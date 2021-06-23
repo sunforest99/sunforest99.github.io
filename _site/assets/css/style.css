@@ -44,7 +44,7 @@ html[data-theme='dark'] { --blockquoteBG: #201D23; --codetagBG: #28303c; }
 
 .about-me { margin-top: 4rem; }
 
-.vl { position: relative; border-left: 4px solid #b695fd; left: 10%; height: 5.5rem; }
+.vl { border-left: 4px solid #b695fd; left: 10%; height: 5.5rem; margin-left: 50%; }
 
 .vl .circle { position: absolute; background-color: #b695fd; width: 10px; height: 10px; border-radius: 75px; margin: -23px; margin-top: 2.5rem; }
 
@@ -53,6 +53,8 @@ html[data-theme='dark'] { --blockquoteBG: #201D23; --codetagBG: #28303c; }
 .div-skills .skills-progress { width: 300px; margin-left: 100px; }
 
 .history-ul { position: absolute; margin-top: 1.5rem; list-style: none; margin-left: -40px; }
+
+#left.history-ul { width: 14rem; margin-left: -16.5rem; text-align: right; }
 
 .footer-ul { list-style: none; }
 

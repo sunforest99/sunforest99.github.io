@@ -28,10 +28,11 @@
 }
 
 .vl {
-    position: relative;
+    //position: relative;
     border-left: 4px solid #b695fd;
     left: 10%;
     height: 5.5rem;
+    margin-left: 50%;
     .circle {
         position: absolute;
         background-color:#b695fd;
@@ -56,6 +57,11 @@
     margin-top: 1.5rem; 
     list-style:none; 
     margin-left: -40px;
+    &#left{
+        width: 14rem;
+        margin-left: -16.5rem;
+        text-align: right;
+    }
 }
 
 .footer-ul {
