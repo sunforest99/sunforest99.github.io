@@ -5,7 +5,7 @@
 
 	<nav class="navbar navbar-light navbar-md fixed-top">
 		<a class="navbar-brand" href="/">
-			<img style="width: 2.5rem; height: 2.5rem;" src="/assets/img/sunforest99.png"/>
+			<img style="width: 2.5rem; height: 2.5rem;" src="/assets/img/sunforest99.png" />
 		</a>
 		<button class="navbar-toggler" type="button" data-target="#navbar-collapse-00" data-toggle="collapse">
 			<svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -25,10 +25,10 @@
 						<a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
 					</li>
 				</ul>
+				{%- endif -%}
+				{%- endfor -%}
+			</div>
 			{%- endif -%}
-			{%- endfor -%}
-		</div>
-		{%- endif -%}
 			<div class="form-check dsp-flex align-items-center">
 				<input class="container_toggle form-switch-input" type="checkbox" id="switch" name="mode">
 				<label class="form-switch-label size-md" for="switch" id="dakrmode"></label>

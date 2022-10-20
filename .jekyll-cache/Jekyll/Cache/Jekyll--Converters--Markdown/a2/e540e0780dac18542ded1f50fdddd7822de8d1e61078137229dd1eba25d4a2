@@ -1,0 +1,54 @@
+I".<h1 id="mac-환경에서-cocos2dx-빌드-오류-해결방법">Mac 환경에서 Cocos2dx 빌드 오류 해결방법</h1>
+<p><br /></p>
+
+<h3 id="실행환경">실행환경</h3>
+<h4 id="20210315-기준">2021.03.15 기준</h4>
+<ul>
+  <li><strong>macOS Big Sur v11.2.2</strong><br /></li>
+  <li><strong>Xcode v12.4</strong><br /></li>
+  <li><strong>android-ndk-r16b</strong><br /></li>
+  <li><strong>Cocos2d-x-3.17.2</strong><br /></li>
+</ul>
+
+<h3 id="프로젝트-생성">프로젝트 생성</h3>
+<p>터미널에다 아래 명렁어를 치면 기본 프로젝트가 생성된다.</p>
+
+<blockquote>
+  <p>$ cocos new [프로젝트 이름] -p [패키지 이름] -l [사용언어] -d [프로젝트 생성할 위치]</p>
+</blockquote>
+
+<h3 id="xcode-로-실행--빌드-오류-해결방법">Xcode 로 실행 &amp; 빌드 오류 해결방법</h3>
+<blockquote>
+  <p>/[프로젝트 이름]/proj.ios_mac/[프로젝트 이름].xcodeproj</p>
+</blockquote>
+
+<p>폴더 안으로 들어가서 .xcodeproj 을 실행시키고 빌드를 하면. 아래와 같이 오류가 발생한다.</p>
+
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/firstbuild.png" alt="" /><br /></p>
+
+<h5 id="btvector3h-에-들어가서-42번-째-줄을-아래-사진처럼-바꿔주면-해결된다">btVector3.h 에 들어가서 42번 째 줄을 아래 사진처럼 바꿔주면 해결된다.</h5>
+
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/firstsolved.png" alt="" /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> #define BT_SHUFFLE(x,y,z,w) (((w) &lt;&lt; 6 | (z) &lt;&lt; 4 | (y) &lt;&lt; 2 | (X)) &amp; 0xff)
+</code></pre></div></div>
+
+<h5 id="btvector3h-해결된-후-다른-오류가-발생하는데-무려-123개나-된다">btVector3.h 해결된 후 다른 오류가 발생하는데 무려 123개나 된다…</h5>
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/secproblem.png" alt="" style="height: 62.5rem;" /></p>
+
+<h5 id="해결방법"><strong>해결방법</strong></h5>
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/secsolved.png" alt="" /></p>
+<blockquote>
+  <p>위에 사진처럼 project-&gt;buildsetting 으로 들어가 arm64 armv7 뒤에 x86_64 를 입력해주면 해결된다.</p>
+</blockquote>
+
+<h5 id="해결후-신나게-빌드하면"><strong>해결후 신나게 빌드하면</strong></h5>
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/simerror.png" alt="" /><br />
+이렇게 에러가 나게된다…<br />
+<del> 이제 그만좀… </del></p>
+
+<h5 id="해결법은-간단하다">해결법은 간단하다.</h5>
+<p><img class="post-img" src="/assets/img/devnote/cocosbuild/lastsolved.png" alt="" /><br /></p>
+<blockquote>
+  <p>위에 사진처럼 project-&gt;General 으로 들어가 비어있는 Version 을 입력하면 된다.</p>
+</blockquote>
+:ET

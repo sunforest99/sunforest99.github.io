@@ -1,0 +1,32 @@
+I"_<h3 id="road-of-dead">Road Of Dead</h3>
+<hr class="hr-dashed" />
+
+<p>TEAM - <a href="https://github.com/GanZinam">GANZINAM</a> <br />
+팀 - 간지남 한국게임과학고등학교 (3학년) <br />
+팀원 : <a href="https://github.com/kyechan99">강예찬</a>, <a href="https://github.com/KangSeockChan">강석찬</a>, <a href="https://github.com/sunforest99">김태양</a>, 김동원 , 배명한 , 고대호<br /><br /></p>
+
+<h3 id="수상이력">수상이력</h3>
+<ol>
+  <li>한국게임과학고등학교 학교장배 게임제작 은상 <br /><br /></li>
+</ol>
+
+<h3 id="개발-엔진">개발 엔진</h3>
+<p>Unity</p>
+
+<h4 id="version">Version</h4>
+<ul>
+  <li>2016.11.4 ~ 2016.11.17 : ver 0.0.1</li>
+  <li>2016.11.18 ~ 2016.11.29: ver 0.0.2</li>
+  <li>2016.11.30 ~ : ver 0.1.0</li>
+</ul>
+
+<h3 id="게임-플레이">게임 플레이</h3>
+<p><img class="post-img" src="/assets/img/portfolio/road-of-Dead/TeamLogo.jpg" alt="" />
+<img class="post-img" src="/assets/img/portfolio/road-of-Dead/GameLogo.jpg" alt="" />
+<img class="post-img" src="/assets/img/portfolio/road-of-Dead/GamePlay.jpg" alt="" />
+ps.모바일게임을 exe로 빌드해서 찍은 스샷입니다.</p>
+
+<p>Client: <a href="https://github.com/GanZinam/Road-Of-Dead">GanZinam/Road-Of-Dead</a> - 
+Organization: <a href="https://github.com/GanZinam">GanZinam</a> -
+Date: Date: 18 Mar, 2017 (Latest commit)</p>
+:ET

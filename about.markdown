@@ -41,9 +41,11 @@ permalink: /about/
         <h2 id="technology-stack-">Technology Stack </h2>
         <p><a href="https://github.com/anuraghazra/github-readme-stats">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunforest99&amp;layout=compact" alt="Top Langs" style="width: 30rem;" /></a></p>
-        <h2 id="technology-stack-">Studying 📚</h2>
-            <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=OpenGL&logoColor=white"/>
-            <img src="https://img.shields.io/badge/C%23-3f8324?style=flat-square&logo=C%20Sharp&logoColor=white"/> 
+        <h2 id="technology-stack-">Studying 📚 </h2>
+            <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat&square&logo=OpenGL&logoColor=white"/>
+            <img src="https://img.shields.io/badge/C%23-3f8324?style=flat&square&logo=C%20Sharp&logoColor=white"/>
+            <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white">
+            <img src="https://img.shields.io/badge/Python-00599C?style=flat&logo=python&logoColor=white">
          <!-- <div>
             <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> 
             <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/>
@@ -79,5 +81,25 @@ permalink: /about/
         <hr class="hr-dashed" style="margin-top: 2rem; margin-bottom: 2rem;"/>
         <h3>Stats</h3>
         <p><img src="https://github-readme-stats.vercel.app/api?username=sunforest99&amp;show_icons=true&amp;theme=dracula" alt="GitHub"></p>
+    </div>
+    <h3 style="margin-bottom: 2rem; margin-top: 3rem;">Projects</h3>
+    <div class="row justify-between" >
+    {%- for category in site.categories -%}
+	{%- for post in category[1] -%}
+	{%- if post.categories[0] == 'project' -%}
+	<div class="card category-card">
+		<a href="{{ post.url | relative_url }}">
+			<img src="/assets/img/head-img/{{ post.headerImg }}" class="card-img-top"/>
+		</a>
+		<a class="card-body" href="{{ post.url | relative_url }}"><h4 class="category-text">{{ post.title | escape }}</h4></a>
+		<div class="tag-group project">
+			{%- for tag in post.tags -%}
+			<span class="tag badge badge-pill badge-primary">{{ tag }}</span>
+			{%- endfor -%}
+		</div>
+	</div>
+	{%- endif -%}
+	{% endfor %}
+    {%- endfor -%}
     </div>
 </div>

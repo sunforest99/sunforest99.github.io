@@ -1,0 +1,38 @@
+I"`<h3 id="shape-of-you">Shape-Of-You</h3>
+<hr class="hr-dashed" />
+
+<p>Shape of You 클라이언트</p>
+
+<h3 id="개발자">개발자</h3>
+<ul>
+  <li><a href="https://github.com/kyechan99">강예찬</a></li>
+  <li><a href="https://github.com/sunforest99">김태양</a></li>
+</ul>
+
+<h5 id="-맵제작-도움-"><strong> 맵제작 도움 <strong></strong></strong></h5>
+<ul>
+  <li><a href="https://github.com/hhh57463">심민석</a><br /></li>
+</ul>
+
+<h3 id="개발-엔진">개발 엔진</h3>
+<p>Unity<br /><br /></p>
+
+<h3 id="게임-인원">게임 인원</h3>
+<p>3 ~ 9 명<br />
+인원수   경찰수<br />
+3   1<br />
+6   2<br />
+9   3<br /><br /></p>
+
+<h4 id="20170909-맥버전">2017.09.09 맥버전</h4>
+<p><img class="post-img" src="/assets/img/portfolio/shape-of-you/Shape-Of-You_MAC.png" alt="" /></p>
+
+<h2 id="스킬-설명">스킬 설명</h2>
+<p><img class="post-img" src="/assets/img/portfolio/shape-of-you/Rule.png" alt="" />
+<img class="post-img" src="/assets/img/portfolio/shape-of-you/Thief.png" alt="" />
+<img class="post-img" src="/assets/img/portfolio/shape-of-you/Police.png" alt="" /></p>
+
+<p>Client: <a href="https://github.com/sunforest99/Shape-Of-You-Client/releases">Shape-Of-You-Client</a> - 
+Server: <a href="https://github.com/kyechan99/Shape-Of-You-Server/releases">Shape-Of-You-Server</a> -
+Date: 24 July, 2017 (Latest commit)</p>
+:ET

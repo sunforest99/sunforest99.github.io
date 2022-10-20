@@ -1,0 +1,45 @@
+I"�<h3 id="vely">Vely</h3>
+<hr class="hr-dashed" />
+<p><br />
+친구 서버 관리 디스코드 봇<br />
+<strong>Vely(블리)</strong>는 친구 강아지 입니다.
+<br />
+<br /></p>
+
+<h2 id="주위"><strong>※주위※</strong></h2>
+<p>이 프로그램은 강아지 관련 프로그램이 아닙니다</p>
+
+<h3 id="개발-언어">개발 언어</h3>
+<p><img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&amp;logo=Python&amp;logoColor=white" /></p>
+
+<h3 id="업데이트">업데이트</h3>
+<p>2022년 9월 14일 Discord 1.7.3 -&gt; Discord 2.0.0 변경</p>
+
+<h3 id="사용-패키지">사용 패키지</h3>
+<ul>
+  <li><strong>Discord 2.0.0</strong></li>
+  <li><strong>BeautifulSoup4 4.11.1</strong></li>
+  <li><strong>requests 2.28.1<strong></strong></strong></li>
+</ul>
+
+<h3 id="봇-프로필"><strong>봇 프로필</strong></h3>
+<p><img class="post-img" src="/assets/img/portfolio/vely/velyprofile.png" alt="" /></p>
+
+<h3 id="명령어"><strong>명령어</strong></h3>
+<p><img class="post-img" src="/assets/img/portfolio/vely/help.png" alt="" /></p>
+
+<h3 id="스텟"><strong>스텟</strong></h3>
+<p><img class="post-img" src="/assets/img/portfolio/vely/state.png" alt="" /></p>
+
+<h3 id="레벨"><strong>레벨</strong></h3>
+<p><img class="post-img" src="/assets/img/portfolio/vely/level.png" alt="" /></p>
+
+<h3 id="운세"><strong>운세</strong></h3>
+<p><img class="post-img" src="/assets/img/portfolio/vely/luck.png" alt="" /></p>
+
+<h3 id="미니게임"><strong>미니게임</strong></h3>
+<p><img class="post-img" src="/assets/img/portfolio/vely/minigame.png" alt="" /></p>
+
+<p>Client: <a href="#">sunforest99/vely(Private)</a> - 
+Date: Date: 14 Sep, 2022 (Latest commit)</p>
+:ET
