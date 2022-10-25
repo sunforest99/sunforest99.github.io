@@ -20,7 +20,7 @@ permalink: /about/
 <hr class="hr-style center" style="--content:'</>';">
 
 <div class="row">
-    <div class="col-md-6" id="left-about" style="margin-bottom: 5rem;">
+    <!-- <div class="col-md-6" id="left-about" style="margin-bottom: 5rem;">
     <h3 class="text-center">History</h3>
             <div class="col-md vl" style="margin-top: 3rem;">
                 <div class="circle"></div>
@@ -36,18 +36,20 @@ permalink: /about/
                     <li style="color: gray;">(2018 ~ )</li>
                 </ul>
             </div>
-    </div>
-    <div class="col-md-6" id="right-about">
-        <h2 id="technology-stack-">Technology Stack </h2>
+    </div> -->
+    <div class="col-md-6">
+       <h2 id="technology-stack-">Technology Stack </h2>
         <p><a href="https://github.com/anuraghazra/github-readme-stats">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sunforest99&amp;layout=compact" alt="Top Langs" style="width: 30rem;" /></a></p>
+    </div>
+    <div class="col-md-6" id="right-about">
         <h2 id="technology-stack-">Studying 📚 </h2>
             <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat&square&logo=OpenGL&logoColor=white"/>
             <img src="https://img.shields.io/badge/C%23-3f8324?style=flat&square&logo=C%20Sharp&logoColor=white"/>
             <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white">
             <img src="https://img.shields.io/badge/Python-00599C?style=flat&logo=python&logoColor=white">
          <!-- <div>
-            <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/> 
+            <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
             <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/>
             <img src="https://img.shields.io/badge/Cocos2dX-55C2E1?style=flat-square&logo=Cocos&logoColor=white"/>
             <img src="https://img.shields.io/badge/C%23-3f8324?style=flat-square&logo=C%20Sharp&logoColor=white"/> 
