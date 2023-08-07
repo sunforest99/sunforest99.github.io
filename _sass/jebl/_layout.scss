@@ -1,24 +1,21 @@
-.category-card
-{
-    width: 20rem; 
+.category-card {
+    width: 20rem;
     margin-bottom: 3rem;
-    .category-text
-    {
+
+    .category-text {
         color: var(--darkColor);
     }
 }
 
-.tag-group
-{
+.tag-group {
     padding: 0px 1rem 1rem 1rem;
     margin-left: -1rem;
-    &.project
-    {
+
+    &.project {
         margin-left: 0rem;
     }
-   
-    .tag
-    {
+
+    .tag {
         margin-right: 4px;
     }
 }
@@ -33,31 +30,34 @@
     left: 10%;
     height: 5.5rem;
     margin-left: 50%;
+
     .circle {
         position: absolute;
-        background-color:#b695fd;
-        width:10px;
-        height:10px;
-        border-radius:75px;
-        margin:-23px;
+        background-color: #b695fd;
+        width: 10px;
+        height: 10px;
+        border-radius: 75px;
+        margin: -23px;
         margin-top: 2.5rem;
     }
 }
 
 .div-skills {
     margin-top: 1.5rem;
+
     .skills-progress {
-        width: 300px; 
+        width: 300px;
         margin-left: 100px;
     }
 }
 
 .history-ul {
-    position: absolute; 
-    margin-top: 1.5rem; 
-    list-style:none; 
+    position: absolute;
+    margin-top: 1.5rem;
+    list-style: none;
     margin-left: -40px;
-    &#left{
+
+    &#left {
         width: 14rem;
         margin-left: -16.5rem;
         text-align: right;
@@ -65,7 +65,7 @@
 }
 
 .footer-ul {
-    list-style:none; 
+    list-style: none;
 
     img {
         margin-right: 1rem;
@@ -81,7 +81,7 @@
     }
 
     li {
-        list-style-position : inside;
+        list-style-position: inside;
     }
 
     .highlight {
@@ -90,12 +90,8 @@
         background-color: var(--codetagBG);
         border-radius: 5px;
         font-size: 18px;
-        
-        // code {
-        //     color: #201D23;
-        // }
     }
-    
+
     blockquote {
         padding-top: 5px;
         padding-bottom: 2px;
@@ -108,3 +104,15 @@
         max-width: 100%;
     }
 }
+
+.about-division {
+    padding-top: 2rem;
+}
+
+.alert{
+    &.alert-light
+    {
+        background-color: #f3f2f5;
+        border-radius: 15px 50px;
+    }
+} 

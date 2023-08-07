@@ -32,6 +32,14 @@ html[data-theme='dark'] { --blockquoteBG: #201D23; --codetagBG: #28303c; }
 
 .slider:after { content: 'OFF'; color: white; display: block; position: absolute; transform: translate(-50%, -50%); top: 50%; left: 50%; font-size: 0.625rem; font-family: Verdana, sans-serif; }
 
+.card-link { margin: auto; }
+
+pre { text-align: left; }
+
+#card-link { color: white; }
+
+.align-center { margin: auto; display: block; }
+
 .category-card { width: 20rem; margin-bottom: 3rem; }
 
 .category-card .category-text { color: var(--darkColor); }
@@ -69,5 +77,9 @@ html[data-theme='dark'] { --blockquoteBG: #201D23; --codetagBG: #28303c; }
 .post blockquote { padding-top: 5px; padding-bottom: 2px; background-color: var(--blockquoteBG); border-left: #B897FF 4px solid; padding-left: 14px; }
 
 .post .post-img { max-width: 100%; }
+
+.about-division { padding-top: 2rem; }
+
+.alert.alert-light { background-color: #f3f2f5; border-radius: 15px 50px; }
 
 /*# sourceMappingURL=style.css.map */

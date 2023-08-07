@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang=" ko"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Google Auth -->
+  <meta name="google-site-verification" content="CPBHSXOcqx3RLJ-Pn1Vr34l30UqV46HXj7Et7LsCM7U" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>백준 2606번 Union-Find | Sunforest99</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="백준 2606번 Union-Find" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="백준 2606번 Union-Find 풀이 백준 2606번 신종 바이러스인 웜 바이러스는 네트워크를 통해 전파된다. ···" />
+<meta property="og:description" content="백준 2606번 Union-Find 풀이 백준 2606번 신종 바이러스인 웜 바이러스는 네트워크를 통해 전파된다. ···" />
+<link rel="canonical" href="http://localhost:4000/devnote/2023/01/05/Solved2606.html" />
+<meta property="og:url" content="http://localhost:4000/devnote/2023/01/05/Solved2606.html" />
+<meta property="og:site_name" content="Sunforest99" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-01-05T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="백준 2606번 Union-Find" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-01-05T00:00:00+09:00","datePublished":"2023-01-05T00:00:00+09:00","description":"백준 2606번 Union-Find 풀이 백준 2606번 신종 바이러스인 웜 바이러스는 네트워크를 통해 전파된다. ···","headline":"백준 2606번 Union-Find","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/devnote/2023/01/05/Solved2606.html"},"url":"http://localhost:4000/devnote/2023/01/05/Solved2606.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="https://yuristrap-cdn.vercel.app/1.0.3/css/yuri.css">
+  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sunforest99" /></head><body><header class="site-header"><nav class="navbar navbar-light navbar-md fixed-top">
+		<a class="navbar-brand" href="/">
+			<img style="width: 2.5rem; height: 2.5rem;" src="/assets/img/sunforest99.png" />
+		</a>
+		<button class="navbar-toggler" type="button" data-target="#navbar-collapse-00" data-toggle="collapse">
+			<svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+				stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+				</path>
+			</svg>
+		</button><div class="collapse navbar-collapse"><div class="navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="/devnote/">DevNote</a>
+					</li>
+				</ul><div class="navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="/project/">project</a>
+					</li>
+				</ul><div class="navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="/about/">About</a>
+					</li>
+				</ul></div><div class="form-check dsp-flex align-items-center">
+				<input class="container_toggle form-switch-input" type="checkbox" id="switch" name="mode">
+				<label class="form-switch-label size-md" for="switch" id="dakrmode"></label>
+			</div>
+		</div>
+	</nav>
+</header><main class="page-content" aria-label="Content">
+    <div class="container">
+      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="post-content e-content" itemprop="articleBody">
+    <div class="row">
+      <divc class="col-md-12 post" style="margin-top: 5rem;"><div class="text-center">
+          <h3 id="백준-2606번-union-find-풀이-">백준 2606번 Union-Find 풀이 <br /><br /></h3>
+<hr class="hr-dashed" />
+<p><br /><br /></p>
+<div class="card card-link" style="width: 20rem;">
+  <a href="https://www.acmicpc.net/problem/2606"><img src="/assets/img/boj-og.png" class="card-img-top" alt="..." /> 
+  <div class="card-body">
+	<strong><h4 class="card-title" id="card-link">백준 2606번</h4></strong>
+    <p id="card-link">신종 바이러스인 웜 바이러스는 네트워크를 통해 전파된다. ···</p>
+  </div>
+  </a>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include <span class="nt">&lt;iostream&gt;</span>
+using namespace std;
+
+int parent[110];
+
+int getParent(int x)
+{
+    if (parent[x] == x) return x;
+    return parent[x] = getParent(parent[x]);
+}
+
+void unionParent(int a, int b)
+{
+    a = getParent(a);
+    b = getParent(b);
+
+    if (a <span class="nt">&lt;</span> <span class="nt">b</span><span class="err">)</span>
+        <span class="na">parent[b] = </span><span class="s">a;</span>
+    <span class="na">else</span>
+        <span class="na">parent[a] = </span><span class="s">b;</span>
+<span class="err">}</span>
+
+<span class="na">bool</span> <span class="na">findParent</span><span class="err">(</span><span class="na">int</span> <span class="na">a</span><span class="err">,</span> <span class="na">int</span> <span class="na">b</span><span class="err">)</span>
+<span class="err">{</span>
+    <span class="na">a = </span><span class="s">getParent(a);</span>
+    <span class="na">b = </span><span class="s">getParent(b);</span>
+
+    <span class="na">if</span> <span class="na">(a =</span><span class="s">=</span> <span class="na">b</span><span class="err">)</span>
+        <span class="na">return</span> <span class="na">true</span><span class="err">;</span>
+    <span class="na">return</span> <span class="na">false</span><span class="err">;</span>
+<span class="err">}</span>
+
+<span class="na">int</span> <span class="na">main</span><span class="err">(</span><span class="na">void</span><span class="err">)</span>
+<span class="err">{</span>
+    <span class="na">ios::sync_with_stdio</span><span class="err">(</span><span class="na">false</span><span class="err">);</span>
+    <span class="na">cin.tie</span><span class="err">(</span><span class="na">NULL</span><span class="err">);</span>
+    <span class="na">cout.tie</span><span class="err">(</span><span class="na">NULL</span><span class="err">);</span>
+
+    <span class="na">int</span> <span class="na">computer</span><span class="err">;</span>
+    <span class="na">cin</span> <span class="nt">&gt;</span>&gt; computer;
+    for (int i = 1; i <span class="nt">&lt;</span><span class="err">=</span> <span class="na">computer</span><span class="err">;</span> <span class="na">i</span><span class="err">++)</span>
+    <span class="err">{</span>
+        <span class="na">parent[i] = </span><span class="s">i;</span>
+    <span class="err">}</span>
+
+    <span class="na">int</span> <span class="na">a</span><span class="err">,</span> <span class="na">b</span><span class="err">,</span> <span class="na">group</span><span class="err">;</span>
+    <span class="na">cin</span> <span class="nt">&gt;</span>&gt; group;
+
+    for (int i = 0; i <span class="nt">&lt;</span> <span class="nt">group</span><span class="err">;</span> <span class="na">i</span><span class="err">++)</span>
+    <span class="err">{</span>
+        <span class="na">cin</span> <span class="nt">&gt;</span>&gt; a &gt;&gt; b;
+        unionParent(a, b);
+    }
+
+    int result = 0;
+    for (int i = 2; i <span class="nt">&lt;</span><span class="err">=</span> <span class="na">computer</span><span class="err">;</span> <span class="na">i</span><span class="err">++)</span>
+    <span class="err">{</span>
+        <span class="na">if</span> <span class="err">(</span><span class="na">findParent</span><span class="err">(</span><span class="na">parent</span><span class="err">[</span><span class="na">i</span><span class="err">],</span> <span class="err">1))</span>
+            <span class="na">result</span><span class="err">++;</span>
+    <span class="err">}</span>
+
+    <span class="na">cout</span> <span class="err">&lt;&lt;</span> <span class="na">result</span> <span class="err">&lt;&lt;</span> <span class="err">"\</span><span class="na">n</span><span class="err">";</span>
+
+    <span class="na">return</span> <span class="err">0;</span>
+<span class="err">}</span>
+</code></pre></div></div>
+
+        </div></div>
+  </div>
+  </div><a class="u-url" href="/devnote/2023/01/05/Solved2606.html" hidden></a>
+</article>
+    </div>
+  </main><footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h5>Contact</h5> 
+				<p>
+					<img style="width: 32px; height: 32px; vertical-align: middle;" src="/assets/img/about-img/mail.png"/>
+					taeyang93002@daum.net<br>
+				</p>
+			</div>
+			<div class="col-md-4">
+				<ul class="dsp-flex align-items-stretch footer-ul">
+					<li><a href="https://github.com/sunforest99"><img src="/assets/img/footer/github.png"></a></li>
+					<li><a href="https://github.com/yuristrap/yuristrap"><img src="/assets/img/footer/yuristrap.png"></a></li>
+					<li><a href="https://www.youtube.com/playlist?list=PLpIuIaJJQbTE6ovBvOnzUBcOu0z0uUyEX"><img src="/assets/img/footer/youtube.png"></a></li>
+                </ul>
+			</div>
+		</div>
+	</div>
+</footer><!-- end of body -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="https://yuristrap-cdn.vercel.app/1.0.3/js/yuri.js"></script>
+  <script type="text/javascript" src="/assets/js/home.js"></script>
+</body>
+
+
+</html>
