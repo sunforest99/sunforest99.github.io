@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-07T21:46:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">백준 2606번 Union-Find</title><link href="http://localhost:4000/devnote/2023/01/05/Solved2606.html" rel="alternate" type="text/html" title="백준 2606번 Union-Find" /><published>2023-01-05T00:00:00+09:00</published><updated>2023-01-05T00:00:00+09:00</updated><id>http://localhost:4000/devnote/2023/01/05/Solved2606</id><content type="html" xml:base="http://localhost:4000/devnote/2023/01/05/Solved2606.html"><![CDATA[<h3 id="백준-2606번-union-find-풀이-">백준 2606번 Union-Find 풀이 <br /><br /></h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-08T14:46:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sunforest99</title><subtitle></subtitle><entry><title type="html">백준 2606번 Union-Find</title><link href="http://localhost:4000/devnote/2023/01/05/Solved2606.html" rel="alternate" type="text/html" title="백준 2606번 Union-Find" /><published>2023-01-05T00:00:00+09:00</published><updated>2023-01-05T00:00:00+09:00</updated><id>http://localhost:4000/devnote/2023/01/05/Solved2606</id><content type="html" xml:base="http://localhost:4000/devnote/2023/01/05/Solved2606.html"><![CDATA[<h3 id="백준-2606번-union-find-풀이-">백준 2606번 Union-Find 풀이 <br /><br /></h3>
 <hr class="hr-dashed" />
 <p><br /><br /></p>
 <div class="card card-link" style="width: 20rem;">
@@ -304,7 +304,10 @@ Date: 5 Feb, 2021 (Latest commit) <br /></p>
 <p>군대 전역 후 맨날 놀고있던 제가 친구들과 만든 멀티게임입니다.<br /> 제가 서버를 담당하진 않았지만 많은것을 배울수 있는 프로젝트였던것 같습니다.</p>]]></content><author><name></name></author><category term="project" /><category term="Unity" /><category term="2020.2.2f1" /><category term="Game" /><category term="C#" /><summary type="html"><![CDATA[전략 턴제 게임! TILER]]></summary></entry><entry><title type="html">Yuristarp</title><link href="http://localhost:4000/project/2020/11/22/yuristrap.html" rel="alternate" type="text/html" title="Yuristarp" /><published>2020-11-22T00:00:00+09:00</published><updated>2020-11-22T00:00:00+09:00</updated><id>http://localhost:4000/project/2020/11/22/yuristrap</id><content type="html" xml:base="http://localhost:4000/project/2020/11/22/yuristrap.html"><![CDATA[<h3 id="yuristarp">Yuristarp</h3>
 <hr class="hr-dashed" />
 
-<p>Yuristarp 웹 프레임워크 <br /></p>
+<p><!-- Yuristarp 웹 프레임워크 <br> -->
+<br /></p>
+<h5 id="yuri는-웹-프론트-애플리케이션을-쉽고-빠르게-제작하기-위해-만들어진-프레임워크입니다">Yuri는 웹 프론트 애플리케이션을 쉽고 빠르게 제작하기 위해 만들어진 프레임워크입니다.</h5>
+<p><br /></p>
 
 <h3 id="개발자">개발자</h3>
 <ul>
@@ -374,7 +377,7 @@ Date: 5 Feb, 2021 (Latest commit) <br /></p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>node-sass --watch scss/yuri.scss dist/css/yuri.css
 </code></pre></div></div>
-<p>Build <code class="language-plaintext highlighter-rouge">watch mode</code></p>]]></content><author><name></name></author><category term="project" /><category term="Web" /><category term="scss" /><category term="js" /><category term="frontend-framwork" /><summary type="html"><![CDATA[Yuristarp Yuristarp 웹 프레임워크]]></summary></entry><entry><title type="html">Shape Of You</title><link href="http://localhost:4000/project/2019/03/04/shape-of-you.html" rel="alternate" type="text/html" title="Shape Of You" /><published>2019-03-04T00:00:00+09:00</published><updated>2019-03-04T00:00:00+09:00</updated><id>http://localhost:4000/project/2019/03/04/shape-of-you</id><content type="html" xml:base="http://localhost:4000/project/2019/03/04/shape-of-you.html"><![CDATA[<h3 id="shape-of-you">Shape-Of-You</h3>
+<p>Build <code class="language-plaintext highlighter-rouge">watch mode</code></p>]]></content><author><name></name></author><category term="project" /><category term="Web" /><category term="scss" /><category term="js" /><category term="frontend-framwork" /><summary type="html"><![CDATA[Yuristarp Yuri는 웹 프론트 애플리케이션을 쉽고 빠르게 제작하기 위해 만들어진 프레임워크입니다.]]></summary></entry><entry><title type="html">Shape Of You</title><link href="http://localhost:4000/project/2019/03/04/shape-of-you.html" rel="alternate" type="text/html" title="Shape Of You" /><published>2019-03-04T00:00:00+09:00</published><updated>2019-03-04T00:00:00+09:00</updated><id>http://localhost:4000/project/2019/03/04/shape-of-you</id><content type="html" xml:base="http://localhost:4000/project/2019/03/04/shape-of-you.html"><![CDATA[<h3 id="shape-of-you">Shape-Of-You</h3>
 <hr class="hr-dashed" />
 
 <p>Shape of You 클라이언트</p>

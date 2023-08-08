@@ -1,62 +1,4 @@
-<!DOCTYPE html>
-<html lang=" ko"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Google Auth -->
-  <meta name="google-site-verification" content="CPBHSXOcqx3RLJ-Pn1Vr34l30UqV46HXj7Et7LsCM7U" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>About | Sunforest99</title>
-<meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="About" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/about/" />
-<meta property="og:url" content="http://localhost:4000/about/" />
-<meta property="og:site_name" content="Sunforest99" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="About" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"About","name":"Sunforest99","url":"http://localhost:4000/about/"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="https://yuristrap-cdn.vercel.app/1.0.3/css/yuri.css">
-  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sunforest99" /></head><body><header class="site-header"><!-- <nav class="navbar navbar-light fixed-top">
-		<a class="navbar-brand" href="#">Navbar</a>
-	  </nav> -->
-
-	<nav class="navbar navbar-light navbar-md">
-		<a class="navbar-brand" href="/">
-			<img style="width: 2.5rem; height: 2.5rem;" src="/assets/img/sunforest99.png" />
-		</a>
-		<button class="navbar-toggler" type="button" data-target="#navbar-collapse-00" data-toggle="collapse">
-			<svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-				stroke="currentColor">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
-				</path>
-			</svg>
-		</button><div class="collapse navbar-collapse" id="navbar-collapse-00"><div class="navbar-collapse">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="/devnote/">DevNote</a>
-					</li>
-				</ul><div class="navbar-collapse">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="/project/">project</a>
-					</li>
-				</ul><div class="navbar-collapse">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="/about/">About</a>
-					</li>
-				</ul></div><div class="form-check dsp-flex align-items-center">
-				<input class="container_toggle form-switch-input" type="checkbox" id="switch" name="mode">
-				<label class="form-switch-label size-md" for="switch" id="dakrmode"></label>
-			</div>
-		</div>
-	</nav>
-</header><main class="page-content" aria-label="Content">
-    <div class="container">
-      <div class="row">
+I"n&<div class="row">
     <img class="col-md-3 border-rounded ex-border" style="margin-top:2rem;" src="/assets/img/profile.jpg" />
     <div class="col-md-9 about-me text-center">
         <h1><strong>Tae Yang Kim</strong></h1>
@@ -115,7 +57,7 @@
         </div>
     </div>
     <div class="col-md-12 about-division">
-        <hr class="hr-style center" style="--content:'&lt;/&gt;';" />
+        <hr class="hr-style center" style="--content:'&lt; / &gt;';" />
         <h3 class="text-center" style="margin-bottom: 4rem; margin-top: 3rem;">PORTFOLIO</h3>
     </div>
     <div class="row justify-between"><div class="card category-card">
@@ -174,32 +116,4 @@
 		<div class="tag-group project"><span class="tag badge badge-pill badge-primary">Unity</span><span class="tag badge badge-pill badge-primary">5.5.0f3</span><span class="tag badge badge-pill badge-primary">NGUI</span><span class="tag badge badge-pill badge-primary">Game</span><span class="tag badge badge-pill badge-primary">C#</span></div>
 	</div></div>
 </div>
-
-    </div>
-  </main><footer class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<h5>Contact</h5> 
-				<p>
-					<img style="width: 32px; height: 32px; vertical-align: middle;" src="/assets/img/about-img/mail.png"/>
-					taeyang93002@daum.net<br>
-				</p>
-			</div>
-			<div class="col-md-4">
-				<ul class="dsp-flex align-items-stretch footer-ul">
-					<li><a href="https://github.com/sunforest99"><img src="/assets/img/footer/github.png"></a></li>
-					<li><a href="https://github.com/yuristrap/yuristrap"><img src="/assets/img/footer/yuristrap.png"></a></li>
-					<li><a href="https://www.youtube.com/playlist?list=PLpIuIaJJQbTE6ovBvOnzUBcOu0z0uUyEX"><img src="/assets/img/footer/youtube.png"></a></li>
-                </ul>
-			</div>
-		</div>
-	</div>
-</footer><!-- end of body -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script type="text/javascript" src="https://yuristrap-cdn.vercel.app/1.0.3/js/yuri.js"></script>
-  <script type="text/javascript" src="/assets/js/home.js"></script>
-</body>
-
-
-</html>
+:ET

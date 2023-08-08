@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 <div class="row">
-    <img class="col-md border-rounded ex-border" style="margin-top:2rem;" src="/assets/img/profile.jpg"/>
+    <img class="col-md-3 border-rounded ex-border" style="margin-top:2rem;" src="/assets/img/profile.jpg"/>
     <div class="col-md-9 about-me text-center">
         <h1><strong>Tae Yang Kim</strong></h1>
         <p style="margin-left: -200px; margin-top:2rem;">

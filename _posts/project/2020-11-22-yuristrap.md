@@ -4,11 +4,14 @@ title:  "Yuristarp"
 categories: [project]
 headerImg: yuristrap.png
 tags: [Web, scss, js, frontend-framwork]
-centertext: false
+centertext: true
 ---
 ### Yuristarp
 <hr class="hr-dashed">
- Yuristarp 웹 프레임워크 <br>
+ <!-- Yuristarp 웹 프레임워크 <br> -->
+<br>
+##### Yuri는 웹 프론트 애플리케이션을 쉽고 빠르게 제작하기 위해 만들어진 프레임워크입니다.
+<br>
 
 ### 개발자
 * [강예찬](https://github.com/kyechan99)

@@ -40,7 +40,7 @@ pre { text-align: left; }
 
 .align-center { margin: auto; display: block; }
 
-.category-card { width: 20rem; margin-bottom: 3rem; }
+.category-card { width: 20rem; margin: auto; margin-bottom: 3rem; }
 
 .category-card .category-text { color: var(--darkColor); }
 
